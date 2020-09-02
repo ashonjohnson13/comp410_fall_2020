@@ -1,0 +1,3920 @@
+-------- show tech-support detail --------
+
+Cisco Adaptive Security Appliance Software Version 101.1(1)71 <system>
+Firepower Extensible Operating System Version 2.2(2.42i)
+Device Manager Version 7.8(2)32
+
+Compiled on Mon 07-Aug-17 17:10 PDT by builders
+System image file is "disk0:/mnt/boot/installables/switch/fxos-k8-fp2k-npu.2.2.2.42i.SSA"
+Config file at boot was "startup-config"
+
+kp-systest-c1a-asa up 7 days 23 hours
+failover cluster up 7 days 23 hours
+
+Hardware:   FPR-2130, 14852 MB RAM, CPU MIPS 1200 MHz, 1 CPU (12 cores)
+
+License mode: Smart Licensing
+
+Licensed features for this platform:
+Maximum Physical Interfaces       : Unlimited      
+Maximum VLANs                     : 1024           
+Inside Hosts                      : Unlimited      
+Failover                          : Active/Active  
+Encryption-DES                    : Enabled        
+Encryption-3DES-AES               : Enabled        
+Security Contexts                 : 18             
+Carrier                           : Disabled       
+AnyConnect Premium Peers          : 7500           
+AnyConnect Essentials             : Disabled       
+Other VPN Peers                   : 7500           
+Total VPN Peers                   : 7500           
+AnyConnect for Mobile             : Enabled        
+AnyConnect for Cisco VPN Phone    : Enabled        
+Advanced Endpoint Assessment      : Enabled        
+Shared License                    : Disabled       
+Total TLS Proxy Sessions          : 8000           
+Cluster                           : Disabled       
+
+
+Failover cluster licensed features for this platform:
+Maximum Physical Interfaces       : Unlimited      
+Maximum VLANs                     : 1024           
+Inside Hosts                      : Unlimited      
+Failover                          : Active/Active  
+Encryption-DES                    : Enabled        
+Encryption-3DES-AES               : Enabled        
+Security Contexts                 : 20             
+Carrier                           : Disabled       
+AnyConnect Premium Peers          : 7500           
+AnyConnect Essentials             : Disabled       
+Other VPN Peers                   : 7500           
+Total VPN Peers                   : 7500           
+AnyConnect for Mobile             : Enabled        
+AnyConnect for Cisco VPN Phone    : Enabled        
+Advanced Endpoint Assessment      : Enabled        
+Shared License                    : Disabled       
+Total TLS Proxy Sessions          : 8000           
+Cluster                           : Disabled       
+
+------------------ show tech-support license ------------------
+
+
+Smart Licensing Tech Support info
+
+Smart Licensing Status
+======================
+
+Smart Licensing is ENABLED
+
+Registration:
+  Status: REGISTERED
+  Virtual Account: KP_ASA
+  Export-Controlled Functionality: Allowed
+  Initial Registration: SUCCEEDED on Aug 08 16:37:41 2017 UTC
+  Last Renewal Attempt: None
+  Next Renewal Attempt: Feb 04 16:37:40 2018 UTC
+  Registration Expires: Aug 08 16:31:34 2018 UTC
+
+License Authorization: 
+  Status: AUTHORIZED on Aug 08 17:08:45 2017 UTC
+  Last Communication Attempt: SUCCESS on Aug 08 17:08:45 2017 UTC
+  Next Communication Attempt: Sep 07 17:08:44 2017 UTC
+  Communication Deadline: Nov 06 17:02:42 2017 UTC
+
+Evaluation Period:
+  Evaluation Mode: Not In Use
+  Evaluation Period Remaining: 89 days, 23 hours, 37 minutes, 42 seconds
+
+License Usage
+=============
+Handle: 1
+    License: Firepower 2100 ASA Standard
+    Description: Firepower 2100 ASA Standard
+    Count: 1
+    Version: 1.0
+    Status: AUTHORIZED(3)
+    Status time: Tue Aug 08 17:07:31.000 UTC
+    Request Time: Aug 08 17:06:58 2017 UTC
+
+Handle: 2
+    License: Firepower 2100 ASA Security Contexts
+    Description: Firepower 2100 ASA Security Contexts
+    Count: 16
+    Version: 1.0
+    Status: AUTHORIZED(3)
+    Status time: Tue Aug 08 17:08:45.000 UTC
+    Request Time: Aug 08 17:07:40 2017 UTC
+
+Handle: 3
+    License: Cisco Firepower 2K Series ASA Strong Encryption (3DES/AES)
+    Description: Cisco Firepower 2K Series ASA Strong Encryption (3DES/AES)
+    Count: 1
+    Version: 1.0
+    Status: AUTHORIZED(3)
+    Status time: Tue Aug 08 17:08:45.000 UTC
+    Request Time: Aug 08 17:07:41 2017 UTC
+
+Product Information
+===================
+
+Agent Version
+=============
+Smart Agent for Licensing: 1.6.14_rel/129
+
+Upcoming Scheduled Jobs
+=======================
+Current time: Aug 16 15:48:35 2017 UTC
+IdCert Expiration Warning: Jun 09 16:31:34 2018 UTC (297 days, 0 hours, 42 minutes, 59 seconds remaining)
+Daily: Aug 16 16:41:56 2017 UTC (53 minutes, 21 seconds remaining)
+Certificate Renewal: Feb 04 16:37:40 2018 UTC (172 days, 0 hours, 49 minutes, 5 seconds remaining)
+Certificate Expiration Check: Aug 08 16:31:34 2018 UTC (357 days, 0 hours, 42 minutes, 59 seconds remaining)
+Authorization Renewal: Sep 07 17:08:44 2017 UTC (22 days, 1 hours, 20 minutes, 9 seconds remaining)
+Authorization Expiration Check: Nov 06 17:02:42 2017 UTC (82 days, 1 hours, 14 minutes, 7 seconds remaining)
+Init Flag Check: Not Available
+
+License Certificates
+====================
+Production Cert: True
+PIID: 12345
+Licensing Certificated:
+    Id certificate Info:
+        Start Date: Aug 08 16:31:36 2017 UTC
+        Expiry Date: Aug 08 16:31:36 2018 UTC
+        Version Number: 3
+        Issuer Name: Smart Licensing CA
+
+    Signing certificate Info:
+        Start Date: Sep 11 19:05:34 2013 UTC
+        Expiry Date: Jan 01 00:00:00 1970 UTC
+        Version Number: 3
+        Issuer Name: Cisco Licensing Root CA
+        Common Name: MMI Signer
+
+    Sub CA Info:
+        Start Date: Sep 11 19:06:30 2013 UTC
+        Expiry Date: Jan 01 00:00:00 1970 UTC
+        Version Number: 3
+        Issuer Name: Cisco Licensing Root CA
+        Common Name: Smart Licensing CA
+
+    Root Cert Info:
+        Start Date: May 30 19:48:47 2013 UTC
+        Expiry Date: Jan 01 00:00:00 1970 UTC
+        Version Number: 3
+        Issuer Name: Cisco Licensing Root CA
+        Common Name: Cisco Licensing Root CA
+
+
+HA Info
+==========
+RP Role: Active
+Chassis Role: Active
+Behavior Role: Active
+RMF: False
+CF: False
+CF State: Invalid
+
+Other Info
+==========
+Agent State: authorized
+TS enable: True
+Transport: Callhome
+Locale: en_US.UTF-8
+Debug flags: 0x0
+Privacy Send Hostname: True
+Privacy Send IP: True
+Build type:: Production
+sizeof(char)  : 1
+sizeof(int)   : 4
+sizeof(long)  : 8
+sizeof(char *): 8
+sizeof(time_t): 8
+sizeof(size_t): 8
+Endian: Little
+Write Erase Occurred: False
+XOS version: 8.0.0.0
+Reservation enable: False
+Reservation in progress: False
+Reservation type: None
+Reservation request code: <empty>
+Reservation authorization code: <empty>
+Reservation return code: <empty>
+Config Persist Received: True
+Message Version: 1.1
+bypassUDICheck: False
+loggingAddTid: False
+platformOverrideEvent: UnknownPlatformEvent
+WaitForHaRole: False
+standbyIsHot: False
+chkPtType: 0
+delayCommInit: False
+roleByEvent: False
+maxTraceLength: 256
+traceAlwaysOn: False
+debugFlags: 0
+
+
+Root CA Certificate: Production
+
+------------------ show disk0: controller ------------------
+
+
+Flash Model: Not Found
+
+------------------ dir all-filesystems ------------------
+
+
+Directory of disk0:/
+
+805324069  drwx  4096         18:15:01 Aug 14 2017  log
+27276  -rw-  26950540     14:00:34 Aug 08 2017  asdm.bin
+27267  -rw-  59118496     14:00:34 Aug 08 2017  asa-restapi
+805324050  drwx  21           16:01:49 Jul 21 2017  smart-log
+27253  drw-  25           16:01:52 Jul 21 2017  coredumpinfo
+537861610  -rw-  7493         16:06:43 Jul 21 2017  old_running.cfg
+537861611  -rw-  22693        17:03:42 Aug 15 2017  admin.cfg
+537861612  -rw-  2525         17:15:12 Jul 21 2017  inside2-6
+537861613  -rw-  10421        15:38:35 Aug 10 2017  inside4
+537861614  -rw-  10146        16:38:54 Aug 10 2017  inside-6-7-9-10
+537861615  -rw-  10147        17:04:29 Aug 15 2017  inside1
+537861616  -rw-  2840         15:38:20 Aug 10 2017  inside11
+537861617  -rw-  2844         15:38:27 Aug 10 2017  inside13
+537861618  -rw-  2846         15:38:29 Aug 10 2017  inside14
+537861619  -rw-  10110        15:38:13 Aug 10 2017  inside2
+537861657  -rw-  2847         15:38:36 Aug 10 2017  inside2-1
+537861658  -rw-  2847         15:38:42 Aug 10 2017  inside2-2
+537861659  -rw-  2852         15:38:42 Aug 10 2017  inside2-4
+537861604  -rw-  2475         15:38:20 Aug 10 2017  inside-2-6
+537861603  -rw-  9268         15:48:35 Aug 16 2017  showtech
+
+17 file(s) total size: 86171390 bytes
+21475885056 bytes total (21266169856 bytes free/99% free)
+
+------------------ show clock ------------------
+
+15:48:33.799 UTC Wed Aug 16 2017
+
+------------------ show crashinfo ------------------
+
+
+------------------ show logging buffered ------------------
+
+Aug 16 2017 15:35:37 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:36:12 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:36:32 KP-systest-admin : %ASA-4-711004: Task ran for 109 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:36:47 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:36:57 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:37:07 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:37:17 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:37:27 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:37:42 KP-systest-admin : %ASA-4-711004: Task ran for 109 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:37:52 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:38:02 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = fover_parse, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:38:12 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:38:37 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:39:07 KP-systest-admin : %ASA-4-711004: Task ran for 109 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:39:32 KP-systest-admin : %ASA-4-711004: Task ran for 110 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:39:42 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:40:02 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:40:12 KP-systest-admin : %ASA-4-711004: Task ran for 115 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:40:27 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:40:37 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:41:07 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:41:22 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:41:32 KP-systest-admin : %ASA-4-711004: Task ran for 115 msec, Process = snmp, PC = f52ad8c4, Call stack = 
+Aug 16 2017 15:41:42 KP-systest-admin : %ASA-4-711004: Task ran for 230 msec, Process = snmp, PC = f52ad8c4, Call stack = 
+Aug 16 2017 15:41:42 KP-systest-admin : %ASA-4-711004: Task ran for 230 msec, Process = snmp, PC = f52ad8c4, Call stack = 
+Aug 16 2017 15:41:52 KP-systest-admin : %ASA-4-711004: Task ran for 115 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:42:07 KP-systest-admin : %ASA-4-711004: Task ran for 115 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:42:17 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:42:27 KP-systest-admin : %ASA-4-711004: Task ran for 109 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:42:37 KP-systest-admin : %ASA-4-711004: Task ran for 117 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:42:47 KP-systest-admin : %ASA-4-711004: Task ran for 115 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:43:02 KP-systest-admin : %ASA-4-711004: Task ran for 107 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:43:12 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:43:22 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:43:57 KP-systest-admin : %ASA-4-711004: Task ran for 129 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:44:17 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:44:27 KP-systest-admin : %ASA-4-711004: Task ran for 109 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:44:52 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:45:22 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:45:47 KP-systest-admin : %ASA-4-711004: Task ran for 140 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:45:57 KP-systest-admin : %ASA-4-711004: Task ran for 107 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:46:07 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:46:17 KP-systest-admin : %ASA-4-711004: Task ran for 109 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:46:27 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:46:52 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:47:22 KP-systest-admin : %ASA-4-711004: Task ran for 107 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:47:47 KP-systest-admin : %ASA-4-711004: Task ran for 108 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:47:57 KP-systest-admin : %ASA-4-711004: Task ran for 115 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:48:07 KP-systest-admin : %ASA-4-711004: Task ran for 114 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+Aug 16 2017 15:48:27 KP-systest-admin : %ASA-4-711004: Task ran for 115 msec, Process = Unicorn Admin Handler, PC = f34bf8f4, Call stack = 
+
+------------------ show memory ------------------
+
+Free memory:        5318377472 bytes (34%)
+Used memory:       10255417344 bytes (66%)
+-------------     ------------------
+Total memory:      15573794816 bytes (100%)
+
+Note: Free memory is the free system memory. Additional memory may
+      be available from memory pools internal to the ASA process.
+      Use 'show memory detail' to see this information, but use it
+      with care since it may cause CPU hogs and packet loss under load.
+
+------------------ show memory detail ------------------
+
+
+Heap Memory:
+   Free Memory:
+      Global Shared Pool:                 5953470928 bytes ( 38% )
+      System:                             5318377472 bytes ( 34% )
+   Used Memory:
+      Global Shared Pool:                 3017510448 bytes ( 19% )
+      Reserved (Size of DMA Pool):        1073741824 bytes (  7% )
+      System Overhead:                     210694144 bytes (  1% )
+-------------------------------------     ----------------
+   Total Memory:                         15573794816 bytes ( 100% )
+
+Warning:  The information reported here is computationally expensive to
+          determine, and may result in CPU hogs and performance impact.
+
+-----------------------------------------------------------------------
+MEMPOOL_DMA POOL STATS:
+
+Non-mmapped bytes allocated =   1073741824
+Number of free chunks       =            1
+Number of mmapped regions   =            0
+Mmapped bytes allocated     =            0
+Max memory footprint        =   1073741824
+Keepcost                    =    705361376
+Max contiguous free mem     =    705361376
+Allocated memory in use     =    368380352
+Free memory                 =    705361472
+
+----- fragmented memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           96             1             96**
+    705361376             1      705361376*
+
+*  - top most releasable chunk.
+** - contiguous memory on top of heap.
+
+
+----- allocated memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+        12288             1          12288
+        16384             1          16384
+        24576             1          24576
+        32768             4         131072
+        49152             1          49152
+       131072             8        1048576
+       196608             1         196608
+       262144             2         524288
+       393216            11        4325376
+       524288             2        1048576
+       786432             9        7077888
+      1048576             3        3145728
+      1572864             1        1572864
+      3145728             3        9437184
+      4194304             1        4194304
+     12582912             3       37748736
+
+MEMPOOL_GLOBAL_SHARED POOL STATS:
+
+Non-mmapped bytes allocated =   6875365376
+Number of free chunks       =       509844
+Number of mmapped regions   =          489
+Mmapped bytes allocated     =   2095616000
+Max memory footprint        =            0
+Keepcost                    =     25300992
+Max contiguous free mem     =            0
+Allocated memory in use     =   3017510448
+Free memory                 =   3857854928
+
+----- fragmented memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           32        277769        8888608
+           48         36254        1740192
+           64         91727        5870528
+           64             3            192
+           80             8            640
+           80          1247          99760
+           96           716          68736
+           96             7            672
+          112          1127         126224
+          112             7            784
+          128             4            512
+          128           211          27008
+          160           616          98560
+          176           161          28336
+          192           146          28032
+          208           183          38064
+          224           735         164640
+          240            52          12480
+          256           103          26368
+          272           909         247248
+          288           197          56736
+          304           140          42560
+          320           255          81600
+          336           993         333648
+          352            82          28864
+          368           100          36800
+          384           824         316416
+          400           796         318400
+          416           220          91520
+          432           238         102816
+          448          3069        1374912
+          464           544         252416
+          480          1013         486240
+          496          1158         574368
+          512           869         444928
+          528           100          52800
+          544           152          82688
+          560          2777        1555120
+          576           537         309312
+          592           797         471824
+          608           914         555712
+          624           815         508560
+          640            94          60160
+          656           141          92496
+          672          2646        1778112
+          688           393         270384
+          704           667         469568
+          720           752         541440
+          736          1144         841984
+          752            89          66928
+          768            97          74496
+          784          2472        1938048
+          800           497         397600
+          816           705         575280
+          832           739         614848
+          848           730         619040
+          864            74          63936
+          880           104          91520
+          896          3046        2729216
+          912           413         376656
+          928           538         499264
+          944           687         648528
+          960           602         577920
+          976            89          86864
+          992           157         155744
+         1008          2046        2062368
+         1024          6701        7142096
+         1088          1212        1358880
+         1152           901        1061248
+         1216           653         810576
+         1280           852        1104112
+         1344          1163        1577664
+         1408          1558        2232496
+         1472          1169        1756640
+         1536           827        1298464
+         1600           678        1102368
+         1664           770        1297872
+         1728           565         984944
+         1792           721        1298400
+         1856           740        1391792
+         1920           668        1307648
+         1984           511        1031296
+         2048           502        1041040
+         2112           961        2055136
+         2176           245         536896
+         2240           241         542672
+         2304           257         596768
+         2368           345         825312
+         2432           248         612832
+         2496           232         585040
+         2560           384         994112
+         2624           579        1528960
+         2688           860        2324800
+         2752           744        2059488
+         2816          1075        3055632
+         2880           638        1862544
+         2944           724        2151200
+         3008          1180        3585168
+         3072           454        1402080
+         3136          3475       11461056
+         3584          2931       11202112
+         4096          1701        7331936
+         4608          1247        6051840
+         5120           916        4906624
+         5632           766        4506512
+         6144           717        4569872
+         6656           588        4052304
+         7168           554        4107664
+         7680           556        4403904
+         8192           240        1984304
+         8704             1           8848
+         9216             3          28560
+        10240             1          10528
+        12288            15         204400
+        16384             7         121792
+        20480            10         239312
+        24576          4334      112559440
+        28672           312        9415408
+        32768            66        2211328
+        36864             1          39376
+        40960          3484      181751952
+        65536           857       66855856
+        98304           608       65645776
+       131072            77       11613776
+       163840          6211     1179704432
+       262144          1979      728806592
+       524288          1202     1260255040
+
+----- allocated memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           56           877          49112
+           72       1239519       89245368
+           88        332823       29288424
+          104        618898       64365392
+          120         14041        1684920
+          136         96594       13136784
+          152          8558        1300816
+          168          2286         384048
+          184          3128         575552
+          200          1971         394200
+          216          1126         243216
+          232          2583         599256
+          248          2106         522288
+          256         13617        3485952
+          384          6100        2342400
+          512          4293        2198016
+          768          3159        2426112
+         1024         36216       37085184
+         1536         15839       24328704
+         2048          1339        2742272
+         3072           392        1204224
+         4096         28507      116764672
+         6144           556        3416064
+         8192          7288       59703296
+        12288          1707       20975616
+        16384           981       16072704
+        24576          7354      180731904
+        32768           157        5144576
+        49152         14589      717078528
+        65536            97        6356992
+        98304           142       13959168
+       131072          7544      988807168
+       196608            53       10420224
+       262144            59       15466496
+       393216            58       22806528
+       524288            27       14155776
+       786432            55       43253760
+      1048576            16       16777216
+      1572864            77      121110528
+      2097152            60      125829120
+      3145728            15       47185920
+      4194304             3       12582912
+      6291456             1        6291456
+      8388608             3       25165824
+     12582912            24      301989888
+
+Summary for all pools:
+
+Non-mmapped bytes allocated =   7949107200
+Number of free chunks       =       509845
+Number of mmapped regions   =            0
+Mmapped bytes allocated     =   2095616000
+Max memory footprint        =   1073741824
+Keepcost                    =    730662368
+Allocated memory in use     =   3385890800
+Free memory                 =   4563216400
+
+
+------------------ show blocks ------------------
+
+  SIZE    MAX    LOW    CNT
+     0   2700   2659   2700
+     4    200    200    200
+    80   1300    275   1300
+   256   5460   5116   5455
+  1550   7446   6180   7438
+  2048    600    600    600
+  2560    903    903    903
+  4096    103    103    103
+  8192    103    103    103
+  9472  10000   2226   6422
+ 16384    103    103    103
+ 65536     16     16     16
+
+------------------ show blocks core ------------------
+
+CORE  LIMIT  ALLOC   HIGH    CNT       FAILED
+   0  24576     78   8096   1213            0
+   1  24576   1040   8220   1563            0
+   2  24576    968   8520    451            0
+   3  24576    724   7701    431            0
+   4  24576    822   8938    691            0
+   5  24576    682   7879    362            0
+   6  24576    419   9904    481            0
+   7  24576   1091   9355    779            0
+   8  24576    973   6769    684            0
+   9  24576    627   8646    261            0
+  10  24576    770   8276   1258            0
+  11  24576    457   8762    476            0
+
+------------------ show blocks queue history detail ------------------
+
+History buffer memory usage: 3744 bytes (default)
+History analysis time limit: 100 msec
+
+Please see 'show blocks exhaustion snapshot' for more information
+
+------------------ show blocks queue history core-local ------------------
+
+History buffer memory usage: 3744 bytes (default)
+History analysis time limit: 100 msec
+
+------------------ show interface ------------------
+
+Interface Internal-Data0/1 "", is up, line protocol is up
+  Hardware is , BW 10000 Mbps, DLY 10 usec
+	(Unknown), (Unknown)
+	Input flow control is unsupported, output flow control is unsupported
+	IP address unassigned
+	107570899945 packets input, 14240931603794 bytes, 253887 no buffer
+	Received 465830051 broadcasts, 0 runts, 0 giants
+	0 input errors, 0 CRC, 0 frame, 3055048 overrun, 0 ignored, 0 abort
+	0 pause input, 0 resume input
+	0 L2 decode drops, 36911543 demux drops
+	111571971406 packets output, 18668362592487 bytes, 0 underruns
+	0 pause output, 0 resume output
+	0 output errors, 0 collisions, 0 interface resets
+	0 late collisions, 0 deferred
+	0 output decode drops
+	0 backplane ingress drops, 0 backplane egress drops
+	0 input reset drops, 0 output reset drops
+	input queue (blocks free curr/low): hardware (0/0)
+	output queue (blocks free curr/low): hardware (0/0)
+  Control Point Interface States:
+	Interface number is 2
+	Interface config status is active
+	Interface state is active
+Interface Port-channel1 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 4000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Port-channel1.3350 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 4000 Mbps, DLY 10 usec
+	VLAN identifier 3350
+	Available for allocation to a context
+Interface Port-channel1.3351 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 4000 Mbps, DLY 10 usec
+	VLAN identifier 3351
+	Available for allocation to a context
+Interface Port-channel2 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 20000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Port-channel2.3357 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 20000 Mbps, DLY 10 usec
+	VLAN identifier 3357
+	Available for allocation to a context
+Interface Port-channel3 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 2000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Port-channel3.3365 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 2000 Mbps, DLY 10 usec
+	VLAN identifier 3365
+	Available for allocation to a context
+Interface Ethernet1/1 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/1.3344 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 10 usec
+	VLAN identifier 3344
+	Available for allocation to a context
+Interface Ethernet1/1.3345 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 10 usec
+	VLAN identifier 3345
+	Available for allocation to a context
+Interface Ethernet1/2 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/2.3346 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 10 usec
+	VLAN identifier 3346
+	Available for allocation to a context
+Interface Ethernet1/3 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/3.3347 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 10 usec
+	VLAN identifier 3347
+	Available for allocation to a context
+Interface Ethernet1/4 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/4.3348 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 10 usec
+	VLAN identifier 3348
+	Available for allocation to a context
+Interface Ethernet1/5 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/6 "", is administratively down, line protocol is down (not associated on Supervisor)
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/7 "", is administratively down, line protocol is down (not associated on Supervisor)
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/8 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/9 "", is administratively down, line protocol is down (not associated on Supervisor)
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/10 "", is administratively down, line protocol is down (not associated on Supervisor)
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/11 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/12 "HALink", is up, line protocol is up
+  Hardware is EtherSVI, BW 1000 Mbps, DLY 1000 usec
+	Description: LAN/STATE Failover Interface
+	IP address 192.168.10.1, subnet mask 255.255.255.0
+  Control Point Interface States:
+	Interface number is 28
+	Interface config status is active
+	Interface state is active
+Interface Ethernet1/13 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/13.3354 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 10 usec
+	VLAN identifier 3354
+	Available for allocation to a context
+Interface Ethernet1/13.3355 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 10 usec
+	VLAN identifier 3355
+	Available for allocation to a context
+Interface Ethernet1/14 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/15 "", is administratively down, line protocol is down (not associated on Supervisor)
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet1/16 "", is administratively down, line protocol is down (not associated on Supervisor)
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Internal-Data1/1 "", is up, line protocol is up
+  Hardware is en_vtun rev00, BW Unknown Speed-Capability, DLY 1000 usec
+	(Full-duplex), (1000 Mbps)
+	Input flow control is unsupported, output flow control is unsupported
+	IP address unassigned
+	3 packets input, 230 bytes, 0 no buffer
+	Received 0 broadcasts, 0 runts, 0 giants
+	0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+	0 pause input, 0 resume input
+	0 L2 decode drops, 0 demux drops
+	3397 packets output, 400626 bytes, 0 underruns
+	0 pause output, 0 resume output
+	0 output errors, 0 collisions, 0 interface resets
+	0 late collisions, 0 deferred
+	0 input reset drops, 0 output reset drops
+	input queue (blocks free curr/low): hardware (0/0)
+	output queue (blocks free curr/low): hardware (0/0)
+  Control Point Interface States:
+	Interface number is 4
+	Interface config status is active
+	Interface state is active
+Interface Management1/1 "", is up, line protocol is up
+  Hardware is en_vtun rev00, BW Unknown Speed-Capability, DLY 1000 usec
+	Auto-Duplex(Full-duplex), Auto-Speed(1000 Mbps)
+	Input flow control is unsupported, output flow control is unsupported
+	Available for allocation to a context
+	IP address unassigned
+	32321438 packets input, 3067094786 bytes, 0 no buffer
+	Received 0 broadcasts, 0 runts, 0 giants
+	0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+	0 pause input, 0 resume input
+	1 L2 decode drops, 0 demux drops
+	52242562 packets output, 30209571678 bytes, 0 underruns
+	0 pause output, 0 resume output
+	0 output errors, 0 collisions, 0 interface resets
+	0 late collisions, 0 deferred
+	0 input reset drops, 0 output reset drops
+	input queue (blocks free curr/low): hardware (0/0)
+	output queue (blocks free curr/low): hardware (0/0)
+  Control Point Interface States:
+	Interface number is 3
+	Interface config status is active
+	Interface state is active
+Interface Ethernet2/1 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet2/1.3358 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 10 usec
+	VLAN identifier 3358
+	Available for allocation to a context
+Interface Ethernet2/1.3359 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 10 usec
+	VLAN identifier 3359
+	Available for allocation to a context
+Interface Ethernet2/2 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet2/2.3353 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 10 usec
+	VLAN identifier 3353
+	Available for allocation to a context
+Interface Ethernet2/2.3360 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 10 usec
+	VLAN identifier 3360
+	Available for allocation to a context
+Interface Ethernet2/3 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet2/3.3361 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 10 usec
+	VLAN identifier 3361
+	Available for allocation to a context
+Interface Ethernet2/4 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet2/4.3362 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 10 usec
+	VLAN identifier 3362
+	Available for allocation to a context
+Interface Ethernet2/5 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet2/6 "", is up, line protocol is up
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet2/7 "", is administratively down, line protocol is down (not associated on Supervisor)
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+Interface Ethernet2/8 "", is administratively down, line protocol is down (not associated on Supervisor)
+  Hardware is EtherSVI, BW 10000 Mbps, DLY 1000 usec
+	Available for allocation to a context
+
+------------------ show cpu usage ------------------
+
+CPU utilization for 5 seconds = 1%; 1 minute: 10%; 5 minutes: 52%
+
+------------------ show cpu detailed ------------------
+
+
+Break down of per-core data path versus control point cpu usage:
+Core         5 sec            1 min             5 min
+Core 0       0.6 (0.2 + 0.4)   9.9 (8.4 + 1.5)  51.4 (48.4 + 2.9)
+Core 1       1.0 (0.2 + 0.8)   9.9 (8.4 + 1.5)  51.2 (48.2 + 2.9)
+Core 2       0.8 (0.2 + 0.6)  10.0 (8.3 + 1.6)  51.2 (48.2 + 2.9)
+Core 3       0.6 (0.2 + 0.4)   9.7 (8.3 + 1.3)  50.9 (48.1 + 2.7)
+Core 4       0.4 (0.2 + 0.2)   9.9 (8.4 + 1.5)  51.1 (48.1 + 3.0)
+Core 5       0.6 (0.2 + 0.4)   9.7 (8.3 + 1.3)  51.0 (48.1 + 2.7)
+Core 6       0.6 (0.2 + 0.4)  10.1 (8.3 + 1.8)  51.1 (48.1 + 2.9)
+Core 7       0.4 (0.2 + 0.2)   9.9 (8.4 + 1.4)  51.2 (48.3 + 2.8)
+Core 8       0.4 (0.2 + 0.2)   9.9 (8.3 + 1.6)  51.1 (48.1 + 3.0)
+Core 9       0.6 (0.2 + 0.4)   9.6 (8.2 + 1.3)  50.9 (48.0 + 2.8)
+Core 10      0.4 (0.2 + 0.2)   9.6 (8.2 + 1.3)  51.0 (48.1 + 2.8)
+Core 11      0.6 (0.2 + 0.4)   9.8 (8.3 + 1.5)  51.4 (48.3 + 3.0)
+
+Current control point elapsed versus the maximum control point elapsed for:
+      5 seconds = 37.5%; 1 minute: 45.3%; 5 minutes: 52.2%
+
+
+CPU utilization of external processes for:
+      5 seconds = 0.1%; 1 minute: 0.3%; 5 minutes: 0.8%
+
+
+Total CPU utilization for:
+      5 seconds = 0.9%; 1 minute: 10.4%; 5 minutes: 52.3%
+
+
+------------------ show process cpu-usage sorted non-zero ------------------
+
+Hardware:   FPR-2130
+Cisco Adaptive Security Appliance Software Version 101.1(1)71
+ASLR enabled, text region fff2b5c000-fff70be33c
+PC         Thread       5Sec     1Min     5Min   Process
+0x000000fff52ad8c4   0x000000ffef939c60     0.3%     0.3%     0.3%   snmp
+0x000000fff3c28d04   0x000000ffef940120     0.1%     0.1%     0.1%   fover_fail_check
+   -          -         0.0%     0.7%     4.0%   DATAPATH-0-2013
+   -          -         0.0%     0.7%     4.0%   DATAPATH-1-2014
+   -          -         0.0%     0.7%     4.0%   DATAPATH-2-2015
+   -          -         0.0%     0.7%     4.0%   DATAPATH-3-2016
+   -          -         0.0%     0.7%     4.0%   DATAPATH-4-2017
+   -          -         0.0%     0.7%     4.0%   DATAPATH-5-2018
+   -          -         0.0%     0.6%     4.0%   DATAPATH-6-2019
+   -          -         0.0%     0.7%     4.0%   DATAPATH-7-2020
+   -          -         0.0%     0.6%     4.0%   DATAPATH-8-2021
+   -          -         0.0%     0.6%     4.0%   DATAPATH-9-2022
+   -          -         0.0%     0.6%     4.0%   DATAPATH-10-2023
+   -          -         0.0%     0.7%     4.0%   DATAPATH-11-2024
+0x000000fff5215bdc   0x000000ffef958880     0.0%     0.2%     1.0%   Logger
+0x000000fff3a3a600   0x000000ffef946da0     0.0%     0.3%     1.0%   CP Processing
+
+------------------ show process cpu-hog ------------------
+
+Hardware:   FPR-2130
+Cisco Adaptive Security Appliance Software Version 101.1(1)71
+ASLR enabled, text region fff2b5c000-fff70be33c
+
+Process:      fover_parse, NUMHOG: 1, MAXHOG: 8, LASTHOG: 8
+LASTHOG At:   15:48:16 UTC Aug 16 2017
+PC:           0x000000fff3c584d0 (suspend)
+Call stack: 
+
+
+Process:      fover_health_monitoring_thread, NUMHOG: 3, MAXHOG: 11, LASTHOG: 11
+LASTHOG At:   15:48:16 UTC Aug 16 2017
+PC:           0x000000fff3c2b810 (suspend)
+Call stack: 
+
+
+Process:      fover_health_monitoring_thread, NUMHOG: 1, MAXHOG: 11, LASTHOG: 11
+LASTHOG At:   15:48:19 UTC Aug 16 2017
+PC:           0x000000fff3c2b810 (suspend)
+Call stack: 
+
+
+Process:      fover_parse, NUMHOG: 1, MAXHOG: 8, LASTHOG: 8
+LASTHOG At:   15:48:21 UTC Aug 16 2017
+PC:           0x000000fff34bf8f4 (suspend)
+Call stack: 
+
+
+Process:      fover_health_monitoring_thread, NUMHOG: 1, MAXHOG: 11, LASTHOG: 11
+LASTHOG At:   15:48:24 UTC Aug 16 2017
+PC:           0x000000fff3c2b810 (suspend)
+Call stack: 
+
+
+Process:      fover_fail_check, NUMHOG: 2, MAXHOG: 27, LASTHOG: 27
+LASTHOG At:   15:48:24 UTC Aug 16 2017
+PC:           0x000000fff34bf8f4 (suspend)
+Call stack: 
+
+
+Process:      fover_fail_check, NUMHOG: 1, MAXHOG: 5, LASTHOG: 5
+LASTHOG At:   15:48:24 UTC Aug 16 2017
+PC:           0x000000fff3c28d04 (suspend)
+Call stack: 
+
+
+Process:      Unicorn Admin Handler, NUMHOG: 1, MAXHOG: 115, LASTHOG: 115
+LASTHOG At:   15:48:26 UTC Aug 16 2017
+PC:           0x000000fff34bf8f4 (suspend)
+Call stack: 
+
+
+Process:      fover_parse, NUMHOG: 1, MAXHOG: 8, LASTHOG: 8
+LASTHOG At:   15:48:26 UTC Aug 16 2017
+PC:           0x000000fff34bf8f4 (suspend)
+Call stack: 
+
+
+Process:      fover_parse, NUMHOG: 2, MAXHOG: 8, LASTHOG: 8
+LASTHOG At:   15:48:26 UTC Aug 16 2017
+PC:           0x000000fff3c584d0 (suspend)
+Call stack: 
+
+
+Process:      fover_health_monitoring_thread, NUMHOG: 11, MAXHOG: 27, LASTHOG: 11
+LASTHOG At:   15:48:26 UTC Aug 16 2017
+PC:           0x000000fff3c2b810 (suspend)
+Call stack: 
+
+
+Process:      fover_health_monitoring_thread, NUMHOG: 1, MAXHOG: 11, LASTHOG: 11
+LASTHOG At:   15:48:29 UTC Aug 16 2017
+PC:           0x000000fff3c2b810 (suspend)
+Call stack: 
+
+
+Process:      fover_fail_check, NUMHOG: 1, MAXHOG: 27, LASTHOG: 27
+LASTHOG At:   15:48:29 UTC Aug 16 2017
+PC:           0x000000fff34bf8f4 (suspend)
+Call stack: 
+
+
+Process:      fover_fail_check, PROC_PC_TOTAL: 1183, MAXHOG: 48, LASTHOG: 5
+LASTHOG At:   15:48:29 UTC Aug 16 2017
+PC:           0x000000fff3c28d04 (suspend)
+
+Process:      fover_fail_check, NUMHOG: 48, MAXHOG: 22, LASTHOG: 5
+LASTHOG At:   15:48:29 UTC Aug 16 2017
+PC:           0x000000fff3c28d04 (suspend)
+Call stack: 
+
+
+Process:      fover_parse, NUMHOG: 1, MAXHOG: 8, LASTHOG: 8
+LASTHOG At:   15:48:31 UTC Aug 16 2017
+PC:           0x000000fff34bf8f4 (suspend)
+Call stack: 
+
+
+Process:      fover_parse, PROC_PC_TOTAL: 2114, MAXHOG: 18, LASTHOG: 8
+LASTHOG At:   15:48:31 UTC Aug 16 2017
+PC:           0x000000fff3c584d0 (suspend)
+
+Process:      fover_parse, NUMHOG: 7, MAXHOG: 8, LASTHOG: 8
+LASTHOG At:   15:48:31 UTC Aug 16 2017
+PC:           0x000000fff3c584d0 (suspend)
+Call stack: 
+
+
+Process:      fover_health_monitoring_thread, PROC_PC_TOTAL: 2372, MAXHOG: 21, LASTHOG: 11
+LASTHOG At:   15:48:31 UTC Aug 16 2017
+PC:           0x000000fff3c2b810 (suspend)
+
+Process:      fover_health_monitoring_thread, NUMHOG: 1, MAXHOG: 11, LASTHOG: 11
+LASTHOG At:   15:48:31 UTC Aug 16 2017
+PC:           0x000000fff3c2b810 (suspend)
+Call stack: 
+
+
+Process:      fover_parse, PROC_PC_TOTAL: 44646, MAXHOG: 430, LASTHOG: 14
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff34bf8f4 (suspend)
+
+Process:      ssh, NUMHOG: 1, MAXHOG: 14, LASTHOG: 14
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff34bf8f4 (suspend)
+Call stack: 
+
+
+Process:      ssh, PROC_PC_TOTAL: 1, MAXHOG: 23, LASTHOG: 23
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff3bf87a8 (suspend)
+
+Process:      ssh, NUMHOG: 1, MAXHOG: 23, LASTHOG: 23
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff3bf87a8 (suspend)
+Call stack: 
+
+
+Process:      ssh, PROC_PC_TOTAL: 1, MAXHOG: 14, LASTHOG: 14
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff3d627b0 (suspend)
+
+Process:      ssh, NUMHOG: 1, MAXHOG: 14, LASTHOG: 14
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff3d627b0 (suspend)
+Call stack: 
+
+
+Process:      ssh, NUMHOG: 1, MAXHOG: 6, LASTHOG: 6
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff4b3e86c (suspend)
+Call stack: 
+
+
+Process:      ssh, NUMHOG: 1, MAXHOG: 90, LASTHOG: 90
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff4b3e86c (suspend)
+Call stack: 
+
+
+Process:      ssh, PROC_PC_TOTAL: 3, MAXHOG: 91, LASTHOG: 91
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff4b3e86c (suspend)
+
+Process:      ssh, NUMHOG: 1, MAXHOG: 91, LASTHOG: 91
+LASTHOG At:   15:48:33 UTC Aug 16 2017
+PC:           0x000000fff4b3e86c (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-0-2013, NUMHOG: 2086, MAXHOG: 654, LASTHOG: 4
+LASTHOG At:   15:45:49 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-0-2013, PROC_PC_TOTAL: 57891, MAXHOG: 654, LASTHOG: 10
+LASTHOG At:   15:48:05 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-0-2013, NUMHOG: 8989, MAXHOG: 401, LASTHOG: 10
+LASTHOG At:   15:48:05 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-1-2014, NUMHOG: 2366, MAXHOG: 279, LASTHOG: 6
+LASTHOG At:   15:46:39 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-1-2014, PROC_PC_TOTAL: 57516, MAXHOG: 400, LASTHOG: 12
+LASTHOG At:   15:48:05 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-1-2014, NUMHOG: 8773, MAXHOG: 400, LASTHOG: 12
+LASTHOG At:   15:48:05 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-2-2015, NUMHOG: 2633, MAXHOG: 548, LASTHOG: 5
+LASTHOG At:   15:45:52 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-2-2015, PROC_PC_TOTAL: 57738, MAXHOG: 548, LASTHOG: 17
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-2-2015, NUMHOG: 8709, MAXHOG: 548, LASTHOG: 17
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-3-2016, NUMHOG: 2732, MAXHOG: 547, LASTHOG: 6
+LASTHOG At:   15:45:50 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-3-2016, NUMHOG: 8732, MAXHOG: 546, LASTHOG: 6
+LASTHOG At:   15:46:53 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-3-2016, PROC_PC_TOTAL: 57069, MAXHOG: 547, LASTHOG: 4
+LASTHOG At:   15:46:54 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-4-2017, NUMHOG: 2603, MAXHOG: 282, LASTHOG: 4
+LASTHOG At:   15:45:51 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-4-2017, PROC_PC_TOTAL: 56661, MAXHOG: 545, LASTHOG: 20
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-4-2017, NUMHOG: 8307, MAXHOG: 545, LASTHOG: 20
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-5-2018, NUMHOG: 2544, MAXHOG: 547, LASTHOG: 6
+LASTHOG At:   15:45:51 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-5-2018, PROC_PC_TOTAL: 56854, MAXHOG: 547, LASTHOG: 16
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-5-2018, NUMHOG: 8397, MAXHOG: 230, LASTHOG: 16
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-6-2019, NUMHOG: 2631, MAXHOG: 296, LASTHOG: 5
+LASTHOG At:   15:45:51 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-6-2019, PROC_PC_TOTAL: 57489, MAXHOG: 548, LASTHOG: 14
+LASTHOG At:   15:47:35 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-6-2019, NUMHOG: 8545, MAXHOG: 548, LASTHOG: 14
+LASTHOG At:   15:47:35 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-7-2020, NUMHOG: 2752, MAXHOG: 547, LASTHOG: 5
+LASTHOG At:   15:45:51 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-7-2020, PROC_PC_TOTAL: 57557, MAXHOG: 573, LASTHOG: 17
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-7-2020, NUMHOG: 8725, MAXHOG: 399, LASTHOG: 17
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-8-2021, NUMHOG: 2556, MAXHOG: 654, LASTHOG: 7
+LASTHOG At:   15:45:51 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-8-2021, PROC_PC_TOTAL: 56548, MAXHOG: 654, LASTHOG: 11
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-8-2021, NUMHOG: 8339, MAXHOG: 400, LASTHOG: 11
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-9-2022, NUMHOG: 2550, MAXHOG: 548, LASTHOG: 4
+LASTHOG At:   15:45:51 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-9-2022, PROC_PC_TOTAL: 57922, MAXHOG: 548, LASTHOG: 16
+LASTHOG At:   15:47:04 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-9-2022, NUMHOG: 8490, MAXHOG: 360, LASTHOG: 16
+LASTHOG At:   15:47:04 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-10-2023, NUMHOG: 2649, MAXHOG: 546, LASTHOG: 5
+LASTHOG At:   15:45:51 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-10-2023, PROC_PC_TOTAL: 57271, MAXHOG: 546, LASTHOG: 5
+LASTHOG At:   15:47:34 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-10-2023, NUMHOG: 8548, MAXHOG: 286, LASTHOG: 5
+LASTHOG At:   15:47:34 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-11-2024, NUMHOG: 2504, MAXHOG: 547, LASTHOG: 4
+LASTHOG At:   15:45:51 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+Process:      DATAPATH-11-2024, PROC_PC_TOTAL: 57264, MAXHOG: 547, LASTHOG: 9
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+
+Process:      DATAPATH-11-2024, NUMHOG: 8505, MAXHOG: 300, LASTHOG: 9
+LASTHOG At:   15:48:06 UTC Aug 16 2017
+PC:           0x0000000000000000 (suspend)
+Call stack: 
+
+
+CPU hog threshold (msec):  4.129
+Last cleared: 17:05:21 UTC Aug 15 2017
+
+------------------ show memory region ------------------
+
+ASLR enabled, text region fff2b5c000-fff70be33c
+
+Address                   Perm Offset   Dev   Inode                      Pathname
+ffe4006000-ffe56bc000 rw-p 00000000 00:00 0                              [stack:2026]
+ffe56df000-ffe703f000 rw-p 00000000 00:00 0                              [stack:2025]
+ffe71f2000-ffe8000000 rw-p 00000000 00:00 0                              [stack:2012]
+ffec0d1000-ffec1d2000 rw-p 00000000 00:00 0                              [stack:2011]
+ffeed47000-ffeef49000 rw-p 00000000 00:00 0                              [stack:2009]
+fff16d9000-fff16db000 r-xp 00000000 00:01 3229                           /lib64/libutil-2.18.so
+fff16db000-fff16ea000 ---p 00002000 00:01 3229                           /lib64/libutil-2.18.so
+fff16ea000-fff16eb000 r--p 00001000 00:01 3229                           /lib64/libutil-2.18.so
+fff16eb000-fff16ec000 rw-p 00002000 00:01 3229                           /lib64/libutil-2.18.so
+fff16f0000-fff187b000 r-xp 00000000 00:01 3402                           /usr/lib64/libpython2.7.so.1.0
+fff187b000-fff188a000 ---p 0018b000 00:01 3402                           /usr/lib64/libpython2.7.so.1.0
+fff188a000-fff18c6000 rw-p 0018a000 00:01 3402                           /usr/lib64/libpython2.7.so.1.0
+fff18d6000-fff1936000 r-xp 00000000 00:01 3881                           /usr/lib64/libssl.so.1.0.0
+fff1936000-fff1945000 ---p 00060000 00:01 3881                           /usr/lib64/libssl.so.1.0.0
+fff1945000-fff1950000 rw-p 0005f000 00:01 3881                           /usr/lib64/libssl.so.1.0.0
+fff1950000-fff1988000 r-xp 00000000 00:01 3387                           /usr/lib64/libxslt.so.1.1.28
+fff1988000-fff1998000 ---p 00038000 00:01 3387                           /usr/lib64/libxslt.so.1.1.28
+fff1998000-fff1999000 rw-p 00038000 00:01 3387                           /usr/lib64/libxslt.so.1.1.28
+fff199a000-fff19f0000 r-xp 00000000 00:01 3394                           /usr/lib64/libxmlsec1.so.1.2.20
+fff19f0000-fff19ff000 ---p 00056000 00:01 3394                           /usr/lib64/libxmlsec1.so.1.2.20
+fff19ff000-fff1a03000 rw-p 00055000 00:01 3394                           /usr/lib64/libxmlsec1.so.1.2.20
+fff1a03000-fff1a36000 r-xp 00000000 00:01 3830                           /usr/lib64/libxmlsec1-openssl.so.1.2.20
+fff1a36000-fff1a45000 ---p 00033000 00:01 3830                           /usr/lib64/libxmlsec1-openssl.so.1.2.20
+fff1a45000-fff1a49000 rw-p 00032000 00:01 3830                           /usr/lib64/libxmlsec1-openssl.so.1.2.20
+fff1a4a000-fff1a52000 r-xp 00000000 00:01 3812                           /usr/lib64/libffi.so.6.0.1
+fff1a52000-fff1a61000 ---p 00008000 00:01 3812                           /usr/lib64/libffi.so.6.0.1
+fff1a61000-fff1a63000 rw-p 00007000 00:01 3812                           /usr/lib64/libffi.so.6.0.1
+fff1a63000-fff1a79000 r-xp 00000000 00:01 3155                           /lib64/libz.so.1.2.8
+fff1a79000-fff1a88000 ---p 00016000 00:01 3155                           /lib64/libz.so.1.2.8
+fff1a88000-fff1a89000 rw-p 00015000 00:01 3155                           /lib64/libz.so.1.2.8
+fff1a89000-fff1cb1000 r-xp 00000000 00:01 3888                           /usr/lib64/libcrypto.so.1.0.0
+fff1cb1000-fff1cc0000 ---p 00228000 00:01 3888                           /usr/lib64/libcrypto.so.1.0.0
+fff1cc0000-fff1cef000 rw-p 00227000 00:01 3888                           /usr/lib64/libcrypto.so.1.0.0
+fff1cf3000-fff1e7e000 r-xp 00000000 00:01 3191                           /lib64/libc-2.18.so
+fff1e7e000-fff1e8d000 ---p 0018b000 00:01 3191                           /lib64/libc-2.18.so
+fff1e8d000-fff1e93000 r--p 0018a000 00:01 3191                           /lib64/libc-2.18.so
+fff1e93000-fff1e98000 rw-p 00190000 00:01 3191                           /lib64/libc-2.18.so
+fff1e9c000-fff1eeb000 r-xp 00000000 00:01 3149                           /lib64/libgcc_s.so.1
+fff1eeb000-fff1efb000 ---p 0004f000 00:01 3149                           /lib64/libgcc_s.so.1
+fff1efb000-fff1efc000 rw-p 0004f000 00:01 3149                           /lib64/libgcc_s.so.1
+fff1efc000-fff1fb3000 r-xp 00000000 00:01 3162                           /lib64/libm-2.18.so
+fff1fb3000-fff1fc2000 ---p 000b7000 00:01 3162                           /lib64/libm-2.18.so
+fff1fc2000-fff1fc3000 r--p 000b6000 00:01 3162                           /lib64/libm-2.18.so
+fff1fc3000-fff1fc4000 rw-p 000b7000 00:01 3162                           /lib64/libm-2.18.so
+fff1fc4000-fff1fd7000 r-xp 00000000 00:01 3405                           /usr/lib64/libunwind-mips.so.8.0.1
+fff1fd7000-fff1fe7000 ---p 00013000 00:01 3405                           /usr/lib64/libunwind-mips.so.8.0.1
+fff1fe7000-fff1fe8000 rw-p 00013000 00:01 3405                           /usr/lib64/libunwind-mips.so.8.0.1
+fff204c000-fff2059000 r-xp 00000000 00:01 3561                           /usr/lib64/libunwind.so.8.0.1
+fff2059000-fff2068000 ---p 0000d000 00:01 3561                           /usr/lib64/libunwind.so.8.0.1
+fff2068000-fff2069000 rw-p 0000c000 00:01 3561                           /usr/lib64/libunwind.so.8.0.1
+fff20cd000-fff20d0000 r-xp 00000000 00:12 27271                          /asa/lib/libplatcap.so
+fff20d0000-fff20e0000 ---p 00003000 00:12 27271                          /asa/lib/libplatcap.so
+fff20e0000-fff20e8000 rw-p 00003000 00:12 27271                          /asa/lib/libplatcap.so
+fff20e8000-fff20f2000 r-xp 00000000 00:01 3370                           /usr/lib64/libprotobuf-c.so.1.0.0
+fff20f2000-fff2101000 ---p 0000a000 00:01 3370                           /usr/lib64/libprotobuf-c.so.1.0.0
+fff2101000-fff2102000 rw-p 00009000 00:01 3370                           /usr/lib64/libprotobuf-c.so.1.0.0
+fff2102000-fff216d000 r-xp 00000000 00:01 5905                           /usr/lib64/libmsglyr.so
+fff216d000-fff217d000 ---p 0006b000 00:01 5905                           /usr/lib64/libmsglyr.so
+fff217d000-fff2186000 rw-p 0006b000 00:01 5905                           /usr/lib64/libmsglyr.so
+fff2186000-fff21e8000 r-xp 00000000 00:01 3536                           /usr/lib64/libzmq.so.3.1.0
+fff21e8000-fff21f7000 ---p 00062000 00:01 3536                           /usr/lib64/libzmq.so.3.1.0
+fff21f7000-fff21fe000 rw-p 00061000 00:01 3536                           /usr/lib64/libzmq.so.3.1.0
+fff21fe000-fff2250000 r-xp 00000000 00:01 3821                           /usr/lib64/libgobject-2.0.so.0.3600.4
+fff2250000-fff225f000 ---p 00052000 00:01 3821                           /usr/lib64/libgobject-2.0.so.0.3600.4
+fff225f000-fff2261000 rw-p 00051000 00:01 3821                           /usr/lib64/libgobject-2.0.so.0.3600.4
+fff2262000-fff23a5000 r-xp 00000000 00:01 3407                           /usr/lib64/libglib-2.0.so.0.3600.4
+fff23a5000-fff23b5000 ---p 00143000 00:01 3407                           /usr/lib64/libglib-2.0.so.0.3600.4
+fff23b5000-fff23b8000 rw-p 00143000 00:01 3407                           /usr/lib64/libglib-2.0.so.0.3600.4
+fff23b9000-fff2471000 r-xp 00000000 00:01 3371                           /usr/lib64/liblasso.so.3.12.1
+fff2471000-fff2480000 ---p 000b8000 00:01 3371                           /usr/lib64/liblasso.so.3.12.1
+fff2480000-fff248b000 rw-p 000b7000 00:01 3371                           /usr/lib64/liblasso.so.3.12.1
+fff248b000-fff261e000 r-xp 00000000 00:01 3879                           /usr/lib64/libxml2.so.2.9.1
+fff261e000-fff262e000 ---p 00193000 00:01 3879                           /usr/lib64/libxml2.so.2.9.1
+fff262e000-fff2639000 rw-p 00193000 00:01 3879                           /usr/lib64/libxml2.so.2.9.1
+fff263a000-fff265e000 r-xp 00000000 00:12 27270                          /asa/lib/libpdts.so
+fff265e000-fff266e000 ---p 00024000 00:12 27270                          /asa/lib/libpdts.so
+fff266e000-fff2670000 rw-p 00024000 00:12 27270                          /asa/lib/libpdts.so
+fff2670000-fff2685000 r-xp 00000000 00:01 3223                           /lib64/libresolv-2.18.so
+fff2685000-fff2695000 ---p 00015000 00:01 3223                           /lib64/libresolv-2.18.so
+fff2695000-fff2696000 r--p 00015000 00:01 3223                           /lib64/libresolv-2.18.so
+fff2696000-fff2697000 rw-p 00016000 00:01 3223                           /lib64/libresolv-2.18.so
+fff2699000-fff26a6000 r-xp 00000000 00:01 3220                           /lib64/libudev.so.0.13.1
+fff26a6000-fff26b5000 ---p 0000d000 00:01 3220                           /lib64/libudev.so.0.13.1
+fff26b5000-fff26b6000 rw-p 0000c000 00:01 3220                           /lib64/libudev.so.0.13.1
+fff26b6000-fff26c8000 r-xp 00000000 00:01 3172                           /lib64/libcgroup.so.1.0.38
+fff26c8000-fff26d8000 ---p 00012000 00:01 3172                           /lib64/libcgroup.so.1.0.38
+fff26d8000-fff26d9000 rw-p 00012000 00:01 3172                           /lib64/libcgroup.so.1.0.38
+fff2934000-fff293c000 r-xp 00000000 00:01 3196                           /lib64/librt-2.18.so
+fff293c000-fff294b000 ---p 00008000 00:01 3196                           /lib64/librt-2.18.so
+fff294b000-fff294c000 r--p 00007000 00:01 3196                           /lib64/librt-2.18.so
+fff294c000-fff294d000 rw-p 00008000 00:01 3196                           /lib64/librt-2.18.so
+fff294d000-fff2950000 r-xp 00000000 00:01 3228                           /lib64/libdl-2.18.so
+fff2950000-fff295f000 ---p 00003000 00:01 3228                           /lib64/libdl-2.18.so
+fff295f000-fff2960000 r--p 00002000 00:01 3228                           /lib64/libdl-2.18.so
+fff2960000-fff2961000 rw-p 00003000 00:01 3228                           /lib64/libdl-2.18.so
+fff2961000-fff297d000 r-xp 00000000 00:01 3166                           /lib64/libpthread-2.18.so
+fff297d000-fff298d000 ---p 0001c000 00:01 3166                           /lib64/libpthread-2.18.so
+fff298d000-fff298e000 rw-p 0001c000 00:01 3166                           /lib64/libpthread-2.18.so
+fff2992000-fff29d8000 r-xp 00000000 00:01 3883                           /usr/lib64/libexpat.so.1.6.0
+fff29d8000-fff29e7000 ---p 00046000 00:01 3883                           /usr/lib64/libexpat.so.1.6.0
+fff29e7000-fff29e9000 rw-p 00045000 00:01 3883                           /usr/lib64/libexpat.so.1.6.0
+fff29e9000-fff2af4000 r-xp 00000000 00:01 3869                           /usr/lib64/libstdc++.so.6.0.18
+fff2af4000-fff2b03000 ---p 0010b000 00:01 3869                           /usr/lib64/libstdc++.so.6.0.18
+fff2b03000-fff2b0d000 r--p 0010a000 00:01 3869                           /usr/lib64/libstdc++.so.6.0.18
+fff2b0d000-fff2b12000 rw-p 00114000 00:01 3869                           /usr/lib64/libstdc++.so.6.0.18
+fff2b27000-fff2b4a000 r-xp 00000000 00:01 3146                           /lib64/ld-2.18.so
+fff2b59000-fff2b5a000 r--p 00022000 00:01 3146                           /lib64/ld-2.18.so
+fff2b5a000-fff2b5c000 rw-p 00023000 00:01 3146                           /lib64/ld-2.18.so
+fff2b5c000-fff70bf000 r-xp 00000000 00:12 537861639                      /asa/bin/lina
+fff70ce000-fff7f0b000 rw-p 04562000 00:12 537861639                      /asa/bin/lina
+ffffadb000-ffffafc000 rwxp 00000000 00:00 0                              [stack]
+fffffff000-10000000000 r-xp 00000000 00:00 0                             [vdso]
+
+------------------ show process ------------------
+
+Hardware:   FPR-2130
+Cisco Adaptive Security Appliance Software Version 101.1(1)71
+ASLR enabled, text region fff2b5c000-fff70be33c
+
+    PC                 SP                 STATE                 Runtime              SBASE       Stack Process TID
+Mwe 0x000000fff4942e64 0x000000ff80023dd0 0x000000fffc7ba910          0 0x000000ff80004030 130216/131072 zone_background_idb 129
+Mwe 0x000000fff575d9f4 0x000000ff62d03a70 0x000000fffc7ba910          9 0x000000ff62ce4030 128720/131072 webvpn_task 170
+Mwe 0x000000fff40e9958 0x000000ffeef69c90 0x000000fffc7ba910          0 0x000000ffeef4a030 125696/131072 WebVPN KCD Process 7
+Msi 0x000000fff5590250 0x000000ffee2c9e00 0x000000fffc7ba910       6116 0x000000ffee2aa030 130144/131072 vpnlb_timer_thread 122
+Mwe 0x000000fff5590524 0x000000ffec304e40 0x000000fffc261ca0          0 0x000000ffec2e5030 129872/131072 vpnlb_thread 93
+Msi 0x000000fff556ec6c 0x000000ff55bdde30 0x000000fffc7ba910      27359 0x000000ff55bbe030 128512/131072 vpnfol_thread_unsent 219
+Msi 0x000000fff556ea74 0x000000ff55c23e30 0x000000fffc7ba910     224631 0x000000ff55c04030 128064/131072 vpnfol_thread_timer 217
+Mwe 0x000000fff556e35c 0x000000ff55c00da0 0x000000fffc261990         40 0x000000ff55be1030 129616/131072 vpnfol_thread_sync 218
+Mwe 0x000000fff556ddb4 0x000000ff55c66e00 0x000000fffc261770     102538 0x000000ff55c27030 256416/262144 vpnfol_thread_msg 216
+Msi 0x000000fff55ae85c 0x000000ff63502e30 0x000000fffc7ba910       2265 0x000000ff634e3030 129008/131072 VPN Clustering HA timer thread 151
+Mwe 0x000000fff55acf8c 0x000000ffec235dd0 0x000000fffc7ba910          0 0x000000ffec216030 130456/131072 VPN Clustering HA cluster member state handler 150
+Lwe 0x000000fff4c80120 0x000000ffee378db0 0x000000fffc7ba910       5019 0x000000ffee359030 128880/131072 vPif_stats_cleaner 253
+Mwe 0x000000fff52ed43c 0x000000ffbc00a550 0x000000fffc7ba910          0 0x000000ffeea68030 129520/131072 UserFromCert Thread 12
+Msi 0x000000fff4c2b9fc 0x000000ff62d49e80 0x000000fffc7ba910       1941 0x000000ff62d2a030 130208/131072 update_mem_usage 168
+Msi 0x000000fff4c38b34 0x000000ff62d6ce80 0x000000fffc7ba910     328877 0x000000ff62d4d030 125792/131072 update_cpu_usage 167
+Mwe 0x000000fff505f354 0x000000ff62ce0dd0 0x000000fffc7ba910          0 0x000000ff62cc1030 129776/131072 unique_id_task 171
+Mwe 0x000000fff52ed43c 0x000000ffb644b1c0 0x000000fffc7ba910     137556 0x000000ff61233030 128880/131072 Unicorn Proxy Thread 209
+Mwe 0x000000fff4b79b10 0x000000ff55a62680 0x000000ffb82dfac0       8579 0x000000ff55963030 1043416/1048576 Unicorn Admin Handler 45145
+Mwe 0x000000fff4b785b8 0x000000ff55736570 0x000000fffc7ba910      44701 0x000000ff55637030 1023576/1048576 Unicorn Admin Handler 45150
+Mwe 0x000000fff52ad6d8 0x000000ffee07ce20 0x000000fffc222aa8          0 0x000000ffee05d030 130224/131072 udp_timer 113
+Mwe 0x000000fff52ae1d0 0x000000ff62275d90 0x000000fffc7ba910     475351 0x000000ff62256030 128512/131072 udp_thread 197
+Lsi 0x000000fff4c0a5b0 0x000000ffee504e60 0x000000fffc7ba910        221 0x000000ffee4e5030 130240/131072 uauth_urlb clean 142
+Mwe 0x000000fff518e550 0x000000ffec511e20 0x000000fffc2105a0          0 0x000000ffec4f2030 130312/131072 Uauth_Proxy 78
+Mwe 0x000000fff522762c 0x000000ffec534d60 0x000000ffb56833b8          3 0x000000ffec515030 129760/131072 uauth 77
+Mwe 0x000000fff3d05648 0x000000ffee2ecde0 0x000000fffc7ba910          0 0x000000ffee2cd030 130216/131072 tunnel_ifc_init 47
+Mwe 0x000000fff3888d18 0x000000ff69712d70 0x000000fff8e2ee80      13723 0x000000ff69613030 1025264/1048576 tmatch compile thread 125
+Mwe 0x000000fff3a2ba0c 0x000000ffec08bdb0 0x000000fffc7ba910          0 0x000000ffec06c030 130168/131072 TLS Proxy Inspector 101
+Mwe 0x000000fff3a2a88c 0x000000ffec068de0 0x000000fffc7ba910          0 0x000000ffec049030 130216/131072 TLS Proxy Handshake 102
+Mwe 0x000000fff397dfe4 0x000000ff612ffe20 0x000000fffc7ba910        293 0x000000ff612e0030 130048/131072 Timekeeper 208
+Mwe 0x000000fff520ab10 0x000000ffec41cdf0 0x000000fffc7ba910          0 0x000000ffec3fd030 130232/131072 Thread Logger 85
+Mwe 0x000000fff5237b90 0x000000ff617e8bb0 0x000000fffca25880          0 0x000000ff617c9030 129800/131072 tcp_thread 200
+Mwe 0x000000fff5230fe0 0x000000ffee283de0 0x000000fffc217218          0 0x000000ffee264030 130160/131072 tcp_slow 112
+Mwe 0x000000fff522e368 0x000000ffee54ae10 0x000000fffc217218          0 0x000000ffee52b030 130208/131072 tcp_fast 111
+Mwe 0x000000fff5220234 0x000000ffec3f9e10 0x000000fffc216ee8         50 0x000000ffec3da030 129808/131072 syslogd 86
+Mwe 0x000000fff52141f4 0x000000ffec43fd60 0x000000fffc7ba910          0 0x000000ffec420030 130288/131072 Syslog Retry Thread 84
+Mwe 0x000000fff373420c 0x000000ffee8a0d30 0x000000fffc7ba910          1 0x000000ffee881030 129752/131072 SXP CORE 25
+Mwe 0x000000fff495ddc8 0x000000ff653c6c20 0x000000fffc7ba910          1 0x000000ff653a7030 127920/131072 static 131
+Msp 0x000000fff51fad1c 0x000000ffec4a8e70 0x000000fffc7ba910      22876 0x000000ffec489030 128784/131072 SSL 81
+Mwe 0x000000fff51cfe5c 0x000000ff55aebdf0 0x000000fffc7ba910          3 0x000000ff55acc030 127592/131072 ssh/timer 443
+M*  0x000000fff4b3e86c 0x000000ffec0d0f00 0x000000fffc7bafa0        866 0x000000ff5583d030 1026816/1048576 ssh 184398
+Msi 0x000000fff50b42ec 0x000000ff63653e20 0x000000fffc7ba910       1485 0x000000ff63634030 129976/131072 snmpfo_timer_thread 140
+Mwe 0x000000fff50b2634 0x000000ff62beedf0 0x000000fffc1fed40        608 0x000000ff62bcf030 121976/131072 SNMP Notify Thread 177
+Mwe 0x000000fff50aa228 0x000000ff6362ca60 0x000000fffc7ba910          0 0x000000ff63611030 113136/131072 SNMP Host Timer Thread 141
+Mwe 0x000000fff52ad8c4 0x000000ff60abcb30 0x000000ffbc0337b8   20676041 0x000000ff60a9d030 119952/131072 snmp 210
+Mwe 0x000000fff52221c8 0x000000ffec485df0 0x000000fffc216f80          0 0x000000ffec466030 130248/131072 SMTP 82
+Mwe 0x000000fff4153a9c 0x000000ffeefe2dd0 0x000000fffb4a0f68          1 0x000000ffeefc3030 129712/131072 SmartLic IPC Comm 108
+Mwe 0x000000fff4154a5c 0x000000ffec045dd0 0x000000fffb4a1408         21 0x000000ffec026030 120112/131072 SmartLic IPC 103
+Msi 0x000000fff415a124 0x000000ffec022e80 0x000000fffc7ba910         26 0x000000ffec003030 129856/131072 sm_lic_sch_comm_thread 104
+Mwe 0x000000fff415a044 0x000000ffe71efdc0 0x000000fffc7ba910          2 0x000000ffe71d0030 125576/131072 sm_lic_entitlement_thread 105
+Mwe 0x000000fff38ae4b4 0x000000ffeed44d10 0x000000fff8e2efa0          0 0x000000ffeed25030 129664/131072 sfr-vpn-status-watcher 116
+Mwe 0x000000fff38af238 0x000000ffee768dd0 0x000000fffc7ba910          0 0x000000ffee749030 128368/131072 sfr-vpn-status 33
+Mwe 0x000000fff50463a0 0x000000ffec5bad60 0x000000fffc7ba910       1514 0x000000ffec57b030 261088/262144 Session Manager 75
+Mwe 0x000000fff51fea58 0x000000ff63ec9c60 0x000000fffc7ba910       5895 0x000000ff63eaa030 124736/131072 Self-Sign Cert Thread 139
+Mwe 0x000000fff56025c8 0x000000ff55ca9a30 0x000000fffc7ba910          1 0x000000ff55c6a030 259176/262144 sch_module 214
+Mwe 0x000000fff560f920 0x000000ff55aa5a60 0x000000fffc7ba910         12 0x000000ff55a66030 247552/262144 sch_dispatcher 763
+Mwe 0x000000fff55ea304 0x000000ffec278d80 0x000000fffc7ba910       1175 0x000000ffec239030 259584/262144 scansafe_poll 97
+Mwe 0x000000fff52ed43c 0x000000ffb599f580 0x000000fffc7ba910        161 0x000000ff627a0030 1040640/1048576 rtcli async executor process 192
+Mwe 0x000000fff3cb44e8 0x000000ffeca12de0 0x000000fffc7ba910          0 0x000000ffec9f3030 130416/131072 REST Periodic 67
+Mwe 0x000000fff34b5040 0x000000ffeeaeddc0 0x000000fffc7ba910          0 0x000000ffeeaae030 261072/262144 Reload Control Thread 10
+Mwe 0x000000fff3729df0 0x000000ffee87ddf0 0x000000fffc7ba910          0 0x000000ffee85e030 129648/131072 RBM CORE 26
+Mwe 0x000000fff51a74d4 0x000000ff63499de0 0x000000fffc7ba910          0 0x000000ff6347a030 130416/131072 RADIUS Proxy Time Keeper 154
+Mwe 0x000000fff515d868 0x000000ff634bc7f0 0x000000ffac0fac78          6 0x000000ff6349d030 128632/131072 RADIUS Proxy Listener 153
+Mwe 0x000000fff51a9c2c 0x000000ff634dfe10 0x000000fffc2119a0          0 0x000000ff634c0030 130520/131072 RADIUS Proxy Event Daemon 152
+Mwe 0x000000fff4f29b28 0x000000ff55b0ec60 0x000000fffd956658       3629 0x000000ff55aef030 128560/131072 qos_metric_daemon 45151
+Mwe 0x000000fff4f713f4 0x000000ffec6afe30 0x000000fffc1c6948          0 0x000000ffec690030 130552/131072 QoS Support Module 68
+Msi 0x000000fff4d0571c 0x000000ff60a99e60 0x000000fffc7ba910      11051 0x000000ff60a7a030 128976/131072 Protocol Statistics Per Second Calculator 211
+Mwe 0x000000fff54f11b0 0x000000ffee527da0 0x000000fffc24a0e8        744 0x000000ffee508030 130408/131072 ppp_timer_thread 121
+Lwe 0x000000fff4bbef94 0x000000ffee332dd0 0x000000fffc7ba910     308747 0x000000ffee313030 120864/131072 pm_timer_thread 143
+Mwe 0x000000fff4e8b014 0x000000ff64886de0 0x000000fffc7ba910         14 0x000000ff64867030 130144/131072 PKI CMP Timer Thread 138
+Mwe 0x000000fff4e8ddd4 0x000000ff648a9df0 0x000000fffc7ba910          0 0x000000ff6488a030 130232/131072 PKI CMP Thread 137
+Msi 0x000000fff4bec088 0x000000ffeca87df0 0x000000fffc7ba910       6095 0x000000ffeca68030 128688/131072 PIX Garbage Collector 65
+Mwe 0x000000fff4e80b54 0x000000ff648ccdf0 0x000000fffc7ba910         88 0x000000ff648ad030 130160/131072 Periodic Cert Auth Timer Thread 136
+Mwe 0x000000fff4e87498 0x000000ff648efde0 0x000000fffc7ba910         46 0x000000ff648d0030 130144/131072 Periodic Cert Auth Thread 135
+Mwe 0x000000fff4b3a794 0x000000ff55b31e10 0x000000fffc046790          5 0x000000ff55b12030 125936/131072 PA AG replication 354
+Mwe 0x000000fff52504c4 0x000000ff62d26de0 0x000000fffc7ba910       4095 0x000000ff62d07030 128992/131072 npshim_thread 169
+Msi 0x000000fff4c2d530 0x000000ff62c7ace0 0x000000fffc7ba910          0 0x000000ff62c5b030 127504/131072 NIC status poll 173
+Msi 0x000000fff429178c 0x000000ffec327e40 0x000000fffc7ba910        392 0x000000ffec308030 130208/131072 netfs_vnode_reclaim 220
+Mwe 0x000000fff52ed43c 0x000000ffb003b340 0x000000fffc7ba910          0 0x000000ffee1d8030 129424/131072 netfs_thread_init 54
+Mwe 0x000000fff42915ec 0x000000ffe705fe20 0x000000fffb4a3a40          0 0x000000ffe7040030 129840/131072 netfs_mount_handler 107
+Mwe 0x000000fff41d5628 0x000000ff6171cdf0 0x000000fffc7ba910      51596 0x000000ff616dd030 259472/262144 MLD 204
+Mwe 0x000000fff3d214c4 0x000000ffee3bede0 0x000000fffc7ba910          0 0x000000ffee39f030 130264/131072 miomod_svi_init 41
+Mwe 0x000000fff54d2f20 0x000000ff629aae40 0x000000fffca25718    1660553 0x000000ff6296b030 255464/262144 lu_rx 190
+Lwe 0x000000fff54d2e5c 0x000000ff62967e60 0x000000fffdaa4178        117 0x000000ff62948030 128848/131072 lu_dynamic_sync 191
+Mwe 0x000000fff54d2cfc 0x000000ff62d8fdd0 0x000000fffdaa4290       5071 0x000000ff62d70030 128240/131072 lu_ctl 166
+Mwe 0x000000fff5215bdc 0x000000ffec462d70 0x000000fffc216918  147000898 0x000000ffec443030 128032/131072 Logger 83
+Mwe 0x000000fff5244004 0x000000ff60a76c70 0x000000ffb1d834a8          5 0x000000ff60a57030 129192/131072 listen/ssh 212
+Mwe 0x000000fff410eb64 0x000000ffec5dddd0 0x000000fffcae9a58          6 0x000000ffec5be030 123040/131072 Lic TMR 114
+Mwe 0x000000fff410ea68 0x000000ffe56dce10 0x000000fffb498040       1393 0x000000ffe56bd030 123136/131072 Lic HA Cluster 115
+Mwe 0x000000fff5516890 0x000000ffee5b3dc0 0x000000fffc7ba910          0 0x000000ffee594030 130384/131072 L2TP mgmt daemon 120
+Mwe 0x000000fff5513738 0x000000ffee7b0dd0 0x000000fffc7ba910          0 0x000000ffee791030 130400/131072 L2TP data daemon 119
+Mwe 0x000000fff3fe5694 0x000000ff61782dd0 0x000000fffc7ba910       1025 0x000000ff61743030 253088/262144 IPv6 ND 202
+Mwe 0x000000fff3feac5c 0x000000ff617c5dd0 0x000000fffc7ba910       1275 0x000000ff61786030 253000/262144 IPv6 Input 201
+Mwe 0x000000fff3fea260 0x000000ff6173fdd0 0x000000fffc7ba910        632 0x000000ff61720030 122936/131072 IPv6 IDB 203
+Mwe 0x000000fff36577d0 0x000000ffee909de0 0x000000ffd02254a0         25 0x000000ffee8ea030 129680/131072 IPsec message handler 123
+Mwe 0x000000fff3f60480 0x000000ff622fed30 0x000000fffca25870    1487730 0x000000ff622bf030 259168/262144 IP Thread 194
+Mwe 0x000000fff48e1bb8 0x000000ff653e9d60 0x000000fffc7ba910       8546 0x000000ff653ca030 121768/131072 IP RIB Update 130
+Mwe 0x000000fff4943070 0x000000ffec36fdc0 0x000000fffc7ba910         30 0x000000ffec350030 122112/131072 IP Connected Route Background 128
+Mwe 0x000000fff475f544 0x000000ffec4eedd0 0x000000fffc7ba910          0 0x000000ffec4cf030 129888/131072 IP Background 127
+Mwe 0x000000fff4bb28f0 0x000000ffeca64e30 0x000000fffc04d0a0          0 0x000000ffeca45030 130552/131072 IP Address Assign 66
+Mwe 0x000000fff3f4df7c 0x000000ffec34cdf0 0x000000fffc7ba910          0 0x000000ffec32d030 130432/131072 Integrity Fw Timer Thread 221
+Mwe 0x000000fff3f5296c 0x000000ff63476d40 0x000000fffca25518          0 0x000000ff63457030 129600/131072 Integrity FW Task 155
+Mwe 0x000000fff3e5fc34 0x000000ffec2e1df0 0x000000fffc7ba910          0 0x000000ffec2c2030 130232/131072 IKEv2 EAP Passthrough 149
+Mwe 0x000000fff3e8cfb8 0x000000ffec3b5de0 0x000000fffc7ba910       5193 0x000000ffec396030 130176/131072 IKEv2 DPD Client Process 148
+Mwe 0x000000fff3e8e1d0 0x000000ffec4cba70 0x000000fffc7ba910        760 0x000000ffec4ac030 120184/131072 IKEv2 Daemon 147
+Mwe 0x000000fff3dc3cb4 0x000000ffec577dc0 0x000000fffc7ba910          0 0x000000ffec558030 130384/131072 IKE Timekeeper 145
+Mwe 0x000000fff3d85f8c 0x000000ffee2a6d00 0x000000fffc7ba910          0 0x000000ffee287030 129504/131072 IKE Receiver 49
+Mwe 0x000000fff3db3c1c 0x000000ff6360daa0 0x000000fffb487ef0         15 0x000000ff635ce030 256504/262144 IKE Daemon 146
+Mwe 0x000000fff3d82e30 0x000000ffee30fde0 0x000000fffc7ba910          0 0x000000ffee2f0030 130216/131072 IKE Common thread 144
+Mwe 0x000000fff4b0bf34 0x000000ffee128e10 0x000000fffc7ba910          0 0x000000ffee0e9030 260720/262144 idfw_service 59
+Mwe 0x000000fff4afad0c 0x000000ffee16bde0 0x000000fffc7ba910          0 0x000000ffee12c030 260976/262144 idfw_proc 58
+Mwe 0x000000fff4b123a0 0x000000ffee0e5dc0 0x000000fffc7ba910          0 0x000000ffee0c6030 129792/131072 idfw_adagent 60
+Mwe 0x000000fff3cbd878 0x000000ff62298d90 0x000000fffca25770      28465 0x000000ff62279030 128832/131072 icmp_thread 196
+Mwe 0x000000fff3c87e34 0x000000ff62a10de0 0x000000fffc7ba910      29311 0x000000ff629f1030 128640/131072 ha_trans_data_tx 188
+Mwe 0x000000fff3c87e34 0x000000ff62a70de0 0x000000fffc7ba910      14540 0x000000ff62a51030 128368/131072 ha_trans_ctl_tx 187
+Mwe 0x000000fff45e411c 0x000000ff62c36df0 0x000000fffc7ba910      16815 0x000000ff62c17030 123528/131072 FPROS_FPR-2130 228
+Mwe 0x000000fff45e42d4 0x000000ff62cbdd10 0x000000fffc7ba910       2050 0x000000ff62c9e030 123304/131072 FPRLI_FPR-2130 227
+Mwe 0x000000fff3c440c8 0x000000ff62b85d20 0x000000fffc93c600          0 0x000000ff62b66030 130280/131072 fover_tx_2 180
+Mwe 0x000000fff3c440c8 0x000000ff62ba8d20 0x000000fffc93c5f0      33668 0x000000ff62b89030 120512/131072 fover_tx 179
+Mwe 0x000000fff3c64f38 0x000000ff62db2de0 0x000000fffc7ba910         19 0x000000ff62d93030 120544/131072 fover_thread 165
+Mwe 0x000000fff3c4bcb4 0x000000ff62bcbde0 0x000000fffc93f280      27885 0x000000ff62bac030 120816/131072 fover_rx 178
+Mwe 0x000000fff3c65c08 0x000000ff62b3fbd0 0x000000fffc93c628      15556 0x000000ff62b20030 115728/131072 fover_rep 182
+Mwe 0x000000fff3c584d0 0x000000ff62b1ca70 0x000000fffc93c638    2610247 0x000000ff62add030 247920/262144 fover_parse 183
+Mwe 0x000000fff3c46f54 0x000000ff62b62cc0 0x000000fffca25938      30413 0x000000ff62b43030 122376/131072 fover_ip 181
+Mwe 0x000000fff3c25f9c 0x000000ff62ab6df0 0x000000fffc93c8b0         95 0x000000ff62a97030 120752/131072 fover_ifc_test 185
+Mwe 0x000000fff3c2b810 0x000000ff62a93dd0 0x000000fffc7ba910    3409852 0x000000ff62a74030 120576/131072 fover_health_monitoring_thread 186
+Mwe 0x000000fff3c64744 0x000000ffee39bdf0 0x000000fffc7ba910          0 0x000000ffee37c030 129680/131072 fover_group_thread_2 238
+Mwe 0x000000fff3c64744 0x000000ffee78ddf0 0x000000fffc7ba910          0 0x000000ffee76e030 129680/131072 fover_group_thread_1 237
+Mwe 0x000000fff3c79a48 0x000000ff629eddb0 0x000000fffc7ba910       4667 0x000000ff629ae030 251520/262144 fover_FSM_thread 189
+Mwe 0x000000fff3c28d04 0x000000ff62ad9df0 0x000000fffc7ba910    4839457 0x000000ff62aba030 120688/131072 fover_fail_check 184
+Mwe 0x000000fff3c95f64 0x000000ffeefbfde0 0x000000fffc7ba910         14 0x000000ffeefa0030 125888/131072 Failover Smart License control thread 5
+Mwe 0x000000fff564c344 0x000000ffec212a30 0x000000fffc7ba910        365 0x000000ffec1d3030 260016/262144 event manager 99
+Mwe 0x000000fff398b218 0x000000ff613429c0 0x000000fffc7ba910        341 0x000000ff61303030 259776/262144 emweb/https 207
+Msi 0x000000fff5073d64 0x000000ffe7127e70 0x000000fffc7ba910       2176 0x000000ffe7108030 130256/131072 emweb/cifs_timer 106
+Mwe 0x000000fff54b0878 0x000000ffee21dde0 0x000000fffc7ba910          0 0x000000ffee1fe030 130416/131072 Dynamic Filter VC Housekeeper 126
+Mwe 0x000000fff38f5d28 0x000000ff616b6d00 0x000000fffc7ba910          0 0x000000ff61697030 129992/131072 dns_process 206
+Lwe 0x000000fff38f98c4 0x000000ff616d9de0 0x000000fffc7ba910         63 0x000000ff616ba030 130144/131072 dns_cache_timer 205
+Msi 0x000000fff394dc14 0x000000ffec646e10 0x000000fffc7ba910       2555 0x000000ffec627030 128128/131072 DHCP Network Scope Monitor 71
+Lwe 0x000000fff38dd7ac 0x000000ffee590da0 0x000000fffc8b5a08          0 0x000000ffee571030 129952/131072 dbgtrace 35
+Mwe 0x000000fff37203f4 0x000000ffee817e20 0x000000fffc7ba910          0 0x000000ffee7f8030 130240/131072 cts_timer_task 28
+Mwe 0x000000fff371d1dc 0x000000ffee85ac40 0x000000fffc827770          0 0x000000ffee81b030 260816/262144 cts_task 27
+Msi 0x000000fff366c8b8 0x000000ffee8e6bd0 0x000000fffc7ba910     156594 0x000000ffee8c7030 127648/131072 CTM message handler 124
+Mwe 0x000000fff3660424 0x000000ffee8c3dc0 0x000000fffc7ba910          0 0x000000ffee8a4030 130384/131072 CTM Daemon 24
+Mwe 0x000000fff3579294 0x000000ff609bca30 0x000000fffc7ba910          0 0x000000ff6099d030 129200/131072 CTL Provider 213
+Mwe 0x000000fff35f6d64 0x000000ffee7f4df0 0x000000fffc7ba910          0 0x000000ffee7d5030 130432/131072 CTCP Timer process 118
+Mwe 0x000000fff4df0a28 0x000000ff64912e00 0x000000fffc7ba910          0 0x000000ff648f3030 130248/131072 Crypto PKI RECV 134
+Mwe 0x000000fff4df1dac 0x000000ff64958dd0 0x000000fffc7ba910        479 0x000000ff64939030 120984/131072 Crypto CA 132
+Mrd 0x000000fff3a39ed4 0x000000ff63001e20 0x000000fffc7bafa0          0 0x000000ff62fe2030 128656/131072 CP Threat-Detection Processing 162
+Mrd 0x000000fff3a3a600 0x000000ff630f3e00 0x000000fffc7bafa0  128586058 0x000000ff630d4030 122344/131072 CP Processing 156
+Mrd 0x000000fff3a3a6e0 0x000000ff630d0e10 0x000000fffc7bafa0      20838 0x000000ff63091030 253592/262144 CP Midpath Processing 157
+Mrd 0x000000fff3a3a044 0x000000ff6308de10 0x000000fffc7bafa0      13145 0x000000ff6306e030 128640/131072 CP HA Processing 158
+Mrd 0x000000fff3a3a1b4 0x000000ff63024e20 0x000000fffc7bafa0          0 0x000000ff63005030 128656/131072 CP DP SFR Event Processing 161
+Mrd 0x000000fff3a3a31c 0x000000ff63047e20 0x000000fffc7bafa0          0 0x000000ff63028030 128656/131072 CP DP CXSC Event Processing 160
+Mrd 0x000000fff3a39d78 0x000000ff6306ae10 0x000000fffc7bafa0     157303 0x000000ff6304b030 128544/131072 CP ARP Processing 159
+Mwe 0x000000fff35d7758 0x000000ffee94fe00 0x000000fff8e12cb8       7537 0x000000ffee930030 128624/131072 Config History Thread 20
+Mwe 0x000000fff3548f5c 0x000000ffee9b8de0 0x000000fffc7ba910          0 0x000000ffee999030 130416/131072 CMGR Timer Process 17
+Mwe 0x000000fff35478e0 0x000000ffee9fbe00 0x000000fffc7c5e30          0 0x000000ffee9bc030 260912/262144 CMGR Server Process 16
+Mwe 0x000000fff37c3040 0x000000ffee2608d0 0x000000fffc7ba910          0 0x000000ffee221030 259992/262144 cluster service module controller 117
+Mwe 0x000000fff3781794 0x000000ffee3e1dd0 0x000000fffc7ba910          0 0x000000ffee3c2030 130128/131072 cluster interface health monitor 40
+Mrd 0x000000fff3a39ba0 0x000000ff62fdee10 0x000000fffc7bafa0          0 0x000000ff62fbf030 128640/131072 Cluster event-queue processing thread 163
+Mwe 0x000000fff4cb2184 0x000000ffec68ce10 0x000000fffc051a70          0 0x000000ffec66d030 130520/131072 Client Update Task 69
+Mwe 0x000000fff390f790 0x000000ff62eb5520 0x000000fff74b5898      10968 0x000000ff62db6030 1033296/1048576 ci/console 164
+Mwe 0x000000fff5eae82c 0x000000ffee059d90 0x000000fffc7ba910          0 0x000000ffee03a030 130136/131072 Chunk Manager 64
+Lwe 0x000000fff5ffcf38 0x000000ffec669de0 0x000000fffc7ba910        443 0x000000ffec64a030 128752/131072 Checkheaps 70
+Mwe 0x000000fff4e53088 0x000000ff64935de0 0x000000fffc7ba910         73 0x000000ff64916030 123616/131072 CERT API 133
+Lwe 0x000000fff349aa78 0x000000ffef57dd10 0x000000fffc7ba768          0 0x000000ffef55e030 129616/131072 block_diag 1
+Mwe 0x000000fff46b8e1c 0x000000ff6222bde0 0x000000fffc7ba910      19906 0x000000ff6220c030 121448/131072 BGP Task 198
+Mwe 0x000000fff462b3b4 0x000000ffee56dde0 0x000000fffc7ba910       7853 0x000000ffee54e030 128928/131072 BGP Scheduler 223
+Lwe 0x000000fff4644434 0x000000ffec2bed90 0x000000fffc7ba910      36848 0x000000ffec29f030 128176/131072 BGP Scanner 225
+Mwe 0x000000fff4658d68 0x000000ffef55ad70 0x000000fffc7ba910     105549 0x000000ffef53b030 120664/131072 BGP Router 222
+Mwe 0x000000fff46505a4 0x000000ffee0a1db0 0x000000fffc7ba910      12473 0x000000ffee082030 122328/131072 BGP I/O 224
+Mwe 0x000000fff46b22f0 0x000000ffec29bdc0 0x000000fffc7ba910          1 0x000000ffec27c030 129008/131072 BGP Event 226
+Mwe 0x000000fff352920c 0x000000ffeea1edc0 0x000000fffc7ba910          0 0x000000ffee9ff030 130384/131072 Attribute Manager Thread 15
+Msi 0x000000fff3f68140 0x000000ffeef8ce10 0x000000fffc7ba910     270831 0x000000ffeef6d030 128464/131072 arp_timer 109
+Mwe 0x000000fff3f77380 0x000000ffee995da0 0x000000fffca25810          0 0x000000ffee976030 130392/131072 arp_forward_thread 110
+Mwe 0x000000fff3f6b788 0x000000ff622bbe00 0x000000fffca26970    4353470 0x000000ff6229c030 126240/131072 ARP Thread 195
+Mwe 0x000000fff3819924 0x000000ff60598cd0 0x000000fff8e23c48         13 0x000000ff60579030 123184/131072 appagent_sync_server_thread 232
+Mwe 0x000000fff37d71a0 0x000000ff55b77a40 0x000000fffc7ba910         92 0x000000ff55b58030 121568/131072 appAgent_req_processor_thread 234
+Mwe 0x000000fff37d2adc 0x000000ff55bbaa50 0x000000fffc7ba910       1554 0x000000ff55b7b030 252128/262144 appAgent_reply_processor_thread 233
+Mwe 0x000000fff37cfdd0 0x000000ff55b54d30 0x000000fffc7ba910     337842 0x000000ff55b35030 123656/131072 appAgent_hb_sender_thread 235
+Msi 0x000000fff381859c 0x000000ff621cfd10 0x000000fffc7ba910    1124876 0x000000ff621b0030 113168/131072 appAgent_hb_receiver_thread 231
+Mwe 0x000000fff3816d30 0x000000ffee193cc0 0x000000fffc7ba910         98 0x000000ffee174030 124344/131072 appagent_async_client_send_thread 229
+Msi 0x000000fff3817a94 0x000000ff62c13d00 0x000000fffc7ba910     771316 0x000000ff62bf4030 113152/131072 appagent_async_client_receive_thread 230
+Mwe 0x000000fff34d8758 0x000000ffec0aedc0 0x000000fffc7ba910          1 0x000000ffec08f030 129696/131072 aggregate_auth_task 100
+Mwe 0x000000fff52ed43c 0x000000ffbc0424b0 0x000000fffc7ba910         13 0x000000ffeea45030 128576/131072 aaa_shim_thread 13
+Mwe 0x000000fff522762c 0x000000ffeea41920 0x000000ffb56833f8          0 0x000000ffeea22030 129128/131072 aaa-url-redirect-task 14
+Mwe 0x000000fff34edc40 0x000000ffeeaaaa50 0x000000fffc7bf0e8       1111 0x000000ffeea8b030 125568/131072 aaa 11
+ -                   -                  -                  -  510847878                  -      -      DATAPATH-0-2013
+ -                   -                  -                  -  510885539                  -      -      DATAPATH-1-2014
+ -                   -                  -                  -  511343151                  -      -      DATAPATH-2-2015
+ -                   -                  -                  -  511386350                  -      -      DATAPATH-3-2016
+ -                   -                  -                  -  510943477                  -      -      DATAPATH-4-2017
+ -                   -                  -                  -  510950638                  -      -      DATAPATH-5-2018
+ -                   -                  -                  -  511403691                  -      -      DATAPATH-6-2019
+ -                   -                  -                  -  511542907                  -      -      DATAPATH-7-2020
+ -                   -                  -                  -  511038542                  -      -      DATAPATH-8-2021
+ -                   -                  -                  -  511048126                  -      -      DATAPATH-9-2022
+ -                   -                  -                  -  511447736                  -      -      DATAPATH-10-2023
+ -                   -                  -                  -  511578220                  -      -      DATAPATH-11-2024
+ -                   -                  -                  - 1767588392                  -      -      scheduler
+ -                   -                  -                  - 8256220521                  -      -      total elapsed
+
+------------------ show kernel process ------------------
+
+
+ PID PPID PRI  NI       VSIZE      RSS                WCHAN STAT  RUNTIME    GTIME   CGTIME COMMAND
+
+   1    0  20   0     2228224      600 18446744071571969244    S      996        0        0 init
+
+   2    0  20   0           0        0 18446744071571151956    S        2        0        0 kthreadd
+
+   3    2  20   0           0        0 18446744071571182696    S      396        0        0 ksoftirqd/0
+
+   4    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/0:0
+
+   5    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/0:0H
+
+   7    2  RT   0           0        0 18446744071571182696    S      154        0        0 migration/0
+
+   8    2  20   0           0        0 18446744071571442308    S        0        0        0 rcu_bh
+
+   9    2  20   0           0        0 18446744071571442876    S    42745        0        0 rcu_sched
+
+  10    2  RT   0           0        0 18446744071571182696    S      151        0        0 migration/1
+
+  11    2  20   0           0        0 18446744071571182696    S       92        0        0 ksoftirqd/1
+
+  12    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/1:0
+
+  13    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/1:0H
+
+  14    2  RT   0           0        0 18446744071571182696    S      154        0        0 migration/2
+
+  15    2  20   0           0        0 18446744071571182696    S      100        0        0 ksoftirqd/2
+
+  16    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/2:0
+
+  17    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/2:0H
+
+  18    2  RT   0           0        0 18446744071571182696    S      153        0        0 migration/3
+
+  19    2  20   0           0        0 18446744071571182696    S       99        0        0 ksoftirqd/3
+
+  20    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/3:0
+
+  21    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/3:0H
+
+  22    2  RT   0           0        0 18446744071571182696    S      150        0        0 migration/4
+
+  23    2  20   0           0        0 18446744071571182696    S       96        0        0 ksoftirqd/4
+
+  24    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/4:0
+
+  25    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/4:0H
+
+  26    2  RT   0           0        0 18446744071571182696    S      151        0        0 migration/5
+
+  27    2  20   0           0        0 18446744071571182696    S       99        0        0 ksoftirqd/5
+
+  28    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/5:0
+
+  29    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/5:0H
+
+  30    2  RT   0           0        0 18446744071571182696    S      152        0        0 migration/6
+
+  31    2  20   0           0        0 18446744071571182696    S      104        0        0 ksoftirqd/6
+
+  32    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/6:0
+
+  33    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/6:0H
+
+  34    2  RT   0           0        0 18446744071571182696    S      156        0        0 migration/7
+
+  35    2  20   0           0        0 18446744071571182696    S       96        0        0 ksoftirqd/7
+
+  36    2  20   0           0        0 18446744071571124400    S     4662        0        0 kworker/7:0
+
+  37    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/7:0H
+
+  38    2  RT   0           0        0 18446744071571182696    S      151        0        0 migration/8
+
+  39    2  20   0           0        0 18446744071571182696    S       94        0        0 ksoftirqd/8
+
+  40    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/8:0
+
+  41    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/8:0H
+
+  42    2  RT   0           0        0 18446744071571182696    S      151        0        0 migration/9
+
+  43    2  20   0           0        0 18446744071571182696    S       97        0        0 ksoftirqd/9
+
+  44    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/9:0
+
+  45    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/9:0H
+
+  46    2  RT   0           0        0 18446744071571182696    S      155        0        0 migration/10
+
+  47    2  20   0           0        0 18446744071571182696    S       94        0        0 ksoftirqd/10
+
+  48    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/10:0
+
+  49    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/10:0H
+
+  50    2  RT   0           0        0 18446744071571182696    S      155        0        0 migration/11
+
+  51    2  20   0           0        0 18446744071571182696    S      103        0        0 ksoftirqd/11
+
+  52    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/11:0
+
+  53    2   0 -20           0        0 18446744071571124400    S        0        0        0 kworker/11:0H
+
+  54    2   0 -20           0        0 18446744071571122836    S        0        0        0 khelper
+
+  55    2  20   0           0        0 18446744071573646956    S        0        0        0 kdevtmpfs
+
+ 264    2   0 -20           0        0 18446744071571122836    S        0        0        0 writeback
+
+ 267    2   0 -20           0        0 18446744071571122836    S        0        0        0 bioset
+
+ 269    2   0 -20           0        0 18446744071571122836    S        0        0        0 kblockd
+
+ 276    2   0 -20           0        0 18446744071571122836    S        0        0        0 ata_sff
+
+ 286    2  20   0           0        0 18446744071574433856    S        0        0        0 khubd
+
+ 296    2   0 -20           0        0 18446744071571122836    S        0        0        0 edac-poller
+
+ 388    2   0 -20           0        0 18446744071571122836    S        0        0        0 rpciod
+
+ 389    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/7:1
+
+ 390    2  20   0           0        0 18446744071571124400    S     4757        0        0 kworker/5:1
+
+ 391    2  20   0           0        0 18446744071571124400    S     4657        0        0 kworker/4:1
+
+ 392    2  20   0           0        0 18446744071571124400    S     4565        0        0 kworker/3:1
+
+ 393    2  20   0           0        0 18446744071571124400    S     4615        0        0 kworker/2:1
+
+ 394    2  20   0           0        0 18446744071571124400    S     4570        0        0 kworker/1:1
+
+ 395    2  20   0           0        0 18446744071571124400    S     4579        0        0 kworker/11:1
+
+ 396    2  20   0           0        0 18446744071571124400    S     4552        0        0 kworker/10:1
+
+ 397    2  20   0           0        0 18446744071571124400    S     4531        0        0 kworker/9:1
+
+ 398    2  20   0           0        0 18446744071571124400    S     4468        0        0 kworker/8:1
+
+ 399    2  20   0           0        0 18446744071571124400    S     4573        0        0 kworker/6:1
+
+ 425    2  20   0           0        0 18446744071571602120    S        0        0        0 kswapd0
+
+ 426    2  20   0           0        0 18446744071572157940    S        0        0        0 fsnotify_mark
+
+ 427    2   0 -20           0        0 18446744071571122836    S        0        0        0 nfsiod
+
+ 570    2   0 -20           0        0 18446744071571122836    S        0        0        0 deferwq
+
+ 602    1  20   0     3706880     1232 18446744071572171352    S        6        0        0 udevd
+
+ 627  602  20   0     3641344      716 18446744071572171352    S        0        0        0 udevd
+
+ 629  602  20   0     3641344      708 18446744071572171352    S        0        0        0 udevd
+
+ 927    2  20   0           0        0 18446744071571124400    S     5017        0        0 kworker/0:1
+
+ 969    1  20   0     5394432      248 18446744071571025912    S        0        0        0 syslog-ng
+
+ 970  969  20   0   237359104     5260 18446744071572171352    S      175        0        0 syslog-ng
+
+1029    1  20   0     6840320      860 18446744071571969244    S        0        0        0 sshd
+
+1033    1  20   0     3063808      584 18446744071571969244    S      102        0        0 rpcbind
+
+1036    1  20   0     2871296     1012 18446744071571969244    S        0        0        0 rpc.statd
+
+1060    1  20   0     3866624      100 18446744071571969244    S   274540        0        0 oct-pci-tap
+
+1883    1  20   0     2510848      784 18446744071572171352    S     5584        0        0 consoled
+
+1884    1  20   0     2510848      784 18446744071573460392    S        0        0        0 agetty
+
+1885    1  20   0     5591040     3196 18446744071571025912    S    28636        0        0 syslog-ng.sh
+
+1886    1  20   0     5697536     3320 18446744071571025912    S    57831        0        0 ssp_ntpd_start.
+
+1954    1  20   0    76132352     2640 18446744073709551615    S     7496        0        0 ntpd
+
+1982 1883  20   0    11100160      720 18446744073709551615    S        0        0        0 lina_monitor
+
+1992 1982   0 -20 10255417344  8768320 18446744073709551615    S 823806628        0        0 lina
+
+2029 1992   0 -20     3547136     1112 18446744071571025912    S        0        0        0 sh
+
+2031 2029   0 -20   240869376     3772 18446744073709551615    S       90        0        0 smart_agent
+
+18783    2  20   0           0        0 18446744071571124400    S        1        0        0 kworker/u24:2
+
+20852    2  20   0           0        0 18446744071571124400    S        0        0        0 kworker/u24:1
+
+21018 1886  20   0     2228224      192 18446744071571167420    S        0        0        0 sleep
+
+21033 1885  20   0     2228224      192 18446744071571167420    S        0        0        0 sleep
+
+23407    2  20   0           0        0 18446744071571124400    S        8        0        0 kworker/u24:0
+
+------------------ show failover ------------------
+
+Failover On 
+Failover unit Primary
+Failover LAN Interface: HALink Ethernet1/12 (up)
+Reconnect timeout 0:00:00
+Unit Poll frequency 1 seconds, holdtime 15 seconds
+Interface Poll frequency 5 seconds, holdtime 25 seconds
+Interface Policy 1
+Monitored Interfaces 5 of 1043 maximum
+failover replication http
+Version: Ours 101.1(1)71, Mate 101.1(1)71
+Group 1 last failover at: 16:43:09 UTC Aug 8 2017
+Group 2 last failover at: 15:27:30 UTC Aug 16 2017
+
+  This host:    Primary
+  Group 1       State:          Active
+                Active time:    687349 (sec)
+  Group 2       State:          Standby Ready
+                Active time:    5168 (sec)
+
+		slot 0: FPR-2130 hw/sw rev (48.46/101.1(1)71) status (Up Sys)
+		  admin Interface diagnostic (192.168.0.11): Normal (Monitored)
+		  inside2 Interface inside2 (0.0.0.0/fe80::2a0:c9ff:fe12:202): Normal (Not-Monitored)
+		  inside2 Interface outside3 (0.0.0.0): Normal (Not-Monitored)
+		  inside4 Interface inside1 (0.0.0.0/fe80::2a0:c9ff:fe14:202): Normal (Not-Monitored)
+		  inside4 Interface outside1 (0.0.0.0): Normal (Waiting)
+		  inside2-2 Interface inside2-2 (0.0.0.0): Normal (Not-Monitored)
+		  inside2-2 Interface outside2-3 (0.0.0.0): Normal (Not-Monitored)
+
+  Other host:   Secondary
+  Group 1       State:          Standby Ready
+                Active time:    0 (sec)
+  Group 2       State:          Active
+                Active time:    1263 (sec)
+
+		slot 0: FPR-2130 hw/sw rev (48.46/101.1(1)71) status (Up Sys)
+		  admin Interface diagnostic (192.168.0.12): Normal (Monitored)
+		  admin Interface inside13 (0.0.0.0): Normal (Not-Monitored)
+		  admin Interface outside13 (0.0.0.0): Normal (Not-Monitored)
+		  inside1 Interface inside1 (0.0.0.0/fe80::2a0:c9ff:fe11:102): Normal (Not-Monitored)
+		  inside1 Interface outside1 (0.0.0.0): Normal (Not-Monitored)
+		  inside-6-7-9-10 Interface inside-6-7-9-10 (0.0.0.0): Normal (Not-Monitored)
+		  inside-6-7-9-10 Interface outside-6-7-9-10 (0.0.0.0): Normal (Not-Monitored)
+		  inside11 Interface inside11 (0.0.0.0): Normal (Waiting)
+		  inside11 Interface outside2-2 (0.0.0.0): Normal (Not-Monitored)
+		  inside14 Interface inside14 (0.0.0.0): Normal (Waiting)
+		  inside14 Interface outside15-16 (0.0.0.0): Normal (Not-Monitored)
+		  inside2-1 Interface inside2-1 (0.0.0.0): Normal (Not-Monitored)
+		  inside2-1 Interface outside2-1 (0.0.0.0): Normal (Not-Monitored)
+		  inside2-4 Interface inside2-4 (0.0.0.0): Normal (Not-Monitored)
+		  inside2-4 Interface outside2-5 (0.0.0.0): Normal (Waiting)
+
+Stateful Failover Logical Update Statistics
+	Link : HALink Ethernet1/12 (up)
+	Stateful Obj 	xmit       xerr       rcv        rerr      
+	General		18308686883 893156250  5320565551 5183242   
+	sys cmd  	91389      0          91368      0         
+	up time  	0          0          0          0         
+	RPC services  	0          0          0          0         
+	TCP conn 	18089470488 893156250  5045855616 5180237   
+	UDP conn 	207939795  0          246983729  3001      
+	ARP tbl  	11112330   0          27580696   4         
+	Xlate_Timeout  	0          0          0          0         
+	IPv6 ND tbl  	2          0          4          0         
+	VPN IKEv1 SA 	0          0          0          0         
+	VPN IKEv1 P2 	0          0          0          0         
+	VPN IKEv2 SA 	0          0          0          0         
+	VPN IKEv2 P2 	0          0          0          0         
+	VPN CTCP upd 	0          0          0          0         
+	VPN SDI upd 	0          0          0          0         
+	VPN DHCP upd 	0          0          0          0         
+	SIP Session 	0          0          0          0         
+	SIP Tx 	0          0          0          0         
+	SIP Pinhole 	0          0          0          0         
+	Route Session 	72821      0          54138      0         
+	Router ID 	22         0          0          0         
+	User-Identity 	36         0          0          0         
+	CTS SGTNAME 	0          0          0          0         
+	CTS PAC 	0          0          0          0         
+	TrustSec-SXP 	0          0          0          0         
+	IPv6 Route 	0          0          0          0         
+	STS Table 	0          0          0          0         
+
+	Logical Update Queue Information
+	 	 	Cur 	Max 	Total
+	Recv Q: 	0 	90 	5322405422
+	Xmit Q: 	0 	1175 	18311688260
+
+------------------ show failover history ------------------
+
+==========================================================================
+Group     From State                 To State                   Reason
+==========================================================================
+16:43:08 UTC Aug 8 2017
+    0     Active Applying Config     Active Config Applied      No Active unit found
+
+16:43:08 UTC Aug 8 2017
+    0     Active Config Applied      Active                     No Active unit found
+
+16:43:09 UTC Aug 8 2017
+    1     Negotiation                Just Active                No Active unit found
+
+16:43:09 UTC Aug 8 2017
+    2     Disabled                   Negotiation                Failover state check
+
+16:43:10 UTC Aug 8 2017
+    1     Just Active                Active Drain               No Active unit found
+
+16:43:10 UTC Aug 8 2017
+    1     Active Drain               Active Applying Config     No Active unit found
+
+16:43:10 UTC Aug 8 2017
+    1     Active Applying Config     Active Config Applied      No Active unit found
+
+16:43:10 UTC Aug 8 2017
+    1     Active Config Applied      Active                     No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Negotiation                Just Active                No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Just Active                Active Drain               No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Active Drain               Active Applying Config     No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Active Applying Config     Active Config Applied      No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Active Config Applied      Active                     No Active unit found
+
+17:37:12 UTC Aug 8 2017
+    2     Active                     Standby Ready              Other unit wants me Standby
+
+14:01:14 UTC Aug 16 2017
+    2     Standby Ready              Just Active                HELLO not heard from mate
+
+14:01:15 UTC Aug 16 2017
+    2     Just Active                Active Drain               HELLO not heard from mate
+
+14:01:15 UTC Aug 16 2017
+    2     Active Drain               Active Applying Config     HELLO not heard from mate
+
+14:01:15 UTC Aug 16 2017
+    2     Active Applying Config     Active Config Applied      HELLO not heard from mate
+
+14:01:15 UTC Aug 16 2017
+    2     Active Config Applied      Active                     HELLO not heard from mate
+
+15:27:30 UTC Aug 16 2017
+    2     Active                     Standby Ready              Other unit wants me Standby
+
+==========================================================================
+
+------------------ show perfmon ------------------
+
+
+Context: system
+PERFMON STATS:                     Current      Average
+Xlates                                0/s          0/s
+Connections                           0/s          0/s
+TCP Conns                             0/s          0/s
+UDP Conns                             0/s          0/s
+URL Access                            0/s          0/s
+URL Server Req                        0/s          0/s
+TCP Fixup                             0/s          0/s
+TCP Intercept Established Conns       0/s          0/s
+TCP Intercept Attempts                0/s          0/s
+TCP Embryonic Conns Timeout           0/s          0/s
+FTP Fixup                             0/s          0/s
+AAA Authen                            0/s          0/s
+AAA Author                            0/s          0/s
+AAA Account                           0/s          0/s
+HTTP Fixup                            0/s          0/s
+
+VALID CONNS RATE in TCP INTERCEPT:    Current      Average
+                                       N/A         N/A
+
+------------------ show resource usage counter all 1 ------------------
+
+Resource                 Current        Peak      Limit        Denied Context
+SSH Server                     1           2          5             0 admin
+ASDM                           1           3          5             0 admin
+Syslogs [rate]                 0       51542  unlimited             0 admin
+Conns                         50     1753679  unlimited             0 admin
+Hosts                          9     1065055  unlimited             0 admin
+Conns [rate]                   0       32232  unlimited             0 admin
+Inspects [rate]                0          41  unlimited             0 admin
+Routes                        19          19  unlimited             0 admin
+Syslogs [rate]                 0       80845  unlimited             0 inside-6-7-9-10
+Conns                          2      414470  unlimited             0 inside-6-7-9-10
+Xlates                         0      400689  unlimited             0 inside-6-7-9-10
+Hosts                          4        1196  unlimited             0 inside-6-7-9-10
+Conns [rate]                   0      105159  unlimited             0 inside-6-7-9-10
+Routes                         8           8  unlimited             0 inside-6-7-9-10
+Syslogs [rate]                 0       96322  unlimited             0 inside1
+Conns                          2     1448939  unlimited             0 inside1
+Xlates                         0     1490021  unlimited             0 inside1
+Hosts                          4        1131  unlimited             0 inside1
+Conns [rate]                   0       65820  unlimited             0 inside1
+Inspects [rate]                0          35  unlimited             0 inside1
+Routes                        12          12  unlimited             0 inside1
+Syslogs [rate]                 0       56827  unlimited             0 inside11
+Conns                          2      137112  unlimited             0 inside11
+Hosts                          4        1108  unlimited             0 inside11
+Conns [rate]                   0       21096  unlimited             0 inside11
+Routes                         8           8  unlimited             0 inside11
+Syslogs [rate]                 0       11348  unlimited             0 inside13
+Conns                          0     1999834  unlimited             0 inside13
+Hosts                          0      120002  unlimited             0 inside13
+Conns [rate]                   0       36110  unlimited             0 inside13
+Routes                         0           8  unlimited             0 inside13
+Syslogs [rate]                 0        2274  unlimited             0 inside14
+Conns                          2        3088  unlimited             0 inside14
+Hosts                          4         105  unlimited             0 inside14
+Conns [rate]                   0        4408  unlimited             0 inside14
+Routes                         8           8  unlimited             0 inside14
+Syslogs [rate]                 0        6635  unlimited             0 inside2
+Conns                          0      672450  unlimited             0 inside2
+Xlates                         0      670902  unlimited             0 inside2
+Hosts                          0        1129  unlimited             0 inside2
+Conns [rate]                   0       48128  unlimited             0 inside2
+Inspects [rate]                0        1395  unlimited             0 inside2
+Routes                         8          12  unlimited             0 inside2
+Syslogs [rate]                 0        2073  unlimited             0 inside2-1
+Conns                          2         994  unlimited             0 inside2-1
+Hosts                          4         105  unlimited             0 inside2-1
+Conns [rate]                   0        8733  unlimited             0 inside2-1
+Routes                         8           8  unlimited             0 inside2-1
+Syslogs [rate]                 0          22  unlimited             0 inside2-2
+Conns                          0        5165  unlimited             0 inside2-2
+Hosts                          0         105  unlimited             0 inside2-2
+Conns [rate]                   0       84827  unlimited             0 inside2-2
+Routes                         5           7  unlimited             0 inside2-2
+Syslogs [rate]                 2         137  unlimited             0 inside2-4
+Conns                          0           2  unlimited             0 inside2-4
+Hosts                          0           4  unlimited             0 inside2-4
+Routes                         4           4  unlimited             0 inside2-4
+Syslogs [rate]                 0          30  unlimited             0 inside2-6
+Syslogs [rate]                 0        6738  unlimited             0 inside4
+Conns                          0      917525  unlimited             0 inside4
+Xlates                         0     1702918  unlimited             0 inside4
+Hosts                          0        1128  unlimited             0 inside4
+Conns [rate]                   0       73338  unlimited             0 inside4
+Inspects [rate]                0         488  unlimited             0 inside4
+Routes                         8          12  unlimited             0 inside4
+
+------------------ show mode ------------------
+
+Security context mode: multiple 
+
+------------------ show history ------------------
+
+  show conn count
+  show version | include up
+  show perfmon 
+  config t
+  perfmon interval 10
+  perfmon settings 
+  end
+  cs
+  show perfmon
+  cs
+  hog
+  hog | grep CP
+  hog | include CP
+  cs
+  show context count
+
+------------------ show firewall ------------------
+
+    Context                 Mode 
+admin                       Router
+inside1                     Router
+inside2                     Router
+inside-6-7-9-10             Router
+inside2-6                   Router
+inside11                    Router
+inside13                    Router
+inside14                    Router
+inside4                     Router
+inside2-1                   Router
+inside2-2                   Router
+inside2-4                   Router
+
+
+
+------------------ show startup-config errors ------------------
+
+Reading from flash...
+!! MIO module heartbeat failure detected
+ failover can not be enabled. 
+*** Output from config line 153, "failover"
+INFO: Admin context is required to get the interfaces
+*** Output from config line 164, "arp timeout 14400"
+INFO: Admin context is required to get the interfaces
+*** Output from config line 165, "no arp permit-nonconnect..."
+INFO: Admin context is required to get the interfaces
+*** Output from config line 166, "arp rate-limit 32768"
+Creating context 'admin'... Done. (1)
+*** Output from config line 181, "admin-context admin"
+*** Output from config line 476, context 'admin', " protocol esp encryption..."
+*** Output from config line 477, context 'admin', " protocol esp integrity ..."
+WARNING: No 'anyconnect image' commands have been issued in the admin context. At least one AnyConnect image must be configured in the admin context to enable this feature in a context
+*** Output from config line 573, context 'admin', " anyconnect enable"
+*** Output from config line 184, "  config-url disk0:/admi..."
+Creating context 'inside1'... Done. (2)
+*** Output from config line 187, "context inside1"
+Creating context 'inside2'... Done. (3)
+*** Output from config line 192, "context inside2"
+Creating context 'inside-6-7-9-10'... Done. (4)
+*** Output from config line 199, "context inside-6-7-9-10"
+Creating context 'inside2-6'... Done. (5)
+*** Output from config line 204, "context inside2-6"
+
+WARNING: Could not fetch the URL disk0:/inside-2-6
+ERROR: Inspect configuration of this type exists, first remove 
+that configuration and then add the new configuration
+*** Output from config line 207, "  config-url disk0:/insi..."
+Creating context 'inside11'... Done. (6)
+*** Output from config line 211, "context inside11"
+Creating context 'inside13'... Done. (7)
+*** Output from config line 217, "context inside13"
+Creating context 'inside14'... Done. (8)
+*** Output from config line 223, "context inside14"
+Creating context 'inside4'... Done. (9)
+*** Output from config line 229, "context inside4"
+Creating context 'inside2-1'... Done. (10)
+*** Output from config line 236, "context inside2-1"
+Creating context 'inside2-2'... Done. (11)
+*** Output from config line 241, "context inside2-2"
+Creating context 'inside2-4'... Done. (12)
+*** Output from config line 248, "context inside2-4"
+
+------------------ show context detail ------------------
+
+Context "system", is a system resource
+  Config URL: startup-config
+  Real Interfaces: 
+  Mapped Interfaces: Ethernet1/1, Ethernet1/1.3344-3345, Ethernet1/10, 
+     Ethernet1/11, Ethernet1/12, Ethernet1/13, Ethernet1/13.3354-3355, 
+     Ethernet1/14, Ethernet1/15, Ethernet1/16, Ethernet1/2, 
+     Ethernet1/2.3346, Ethernet1/3, Ethernet1/3.3347, Ethernet1/4, 
+     Ethernet1/4.3348, Ethernet1/5, Ethernet1/6, Ethernet1/7, 
+     Ethernet1/8, Ethernet1/9, Ethernet2/1, Ethernet2/1.3358-3359, 
+     Ethernet2/2, Ethernet2/2.3353, Ethernet2/2.3360, Ethernet2/3, 
+     Ethernet2/3.3361, Ethernet2/4, Ethernet2/4.3362, Ethernet2/5, 
+     Ethernet2/6, Ethernet2/7, Ethernet2/8, Internal-Data0/1, 
+     Internal-Data1/1, Management1/1, Port-channel1, 
+     Port-channel1.3350-3351, Port-channel2, Port-channel2.3357, 
+     Port-channel3, Port-channel3.3365
+  Class: default, Flags: 0x00000819, ID: 0
+
+Context "admin", has been created
+  Config URL: disk0:/admin.cfg
+  Real Interfaces: Ethernet1/13.3354-3355, Management1/1
+  Mapped Interfaces: Ethernet1/13.3354-3355, Management1/1
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000813, ID: 1
+
+Context "inside1", has been created
+  Config URL: disk0:/inside1
+  Real Interfaces: Ethernet1/1.3344-3345
+  Mapped Interfaces: Ethernet1/1.3344-3345
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 2
+
+Context "inside2", has been created
+  Config URL: disk0:/inside2
+  Real Interfaces: Ethernet1/2.3346, Ethernet1/3.3347
+  Mapped Interfaces: Ethernet1/2.3346, Ethernet1/3.3347
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 3
+  Failover group: 2
+
+Context "inside-6-7-9-10", has been created
+  Config URL: disk0:/inside-6-7-9-10
+  Real Interfaces: Port-channel1.3350-3351
+  Mapped Interfaces: Port-channel1.3350-3351
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 4
+
+Context "inside2-6", has been created
+  Config URL: disk0:/inside-2-6
+  Real Interfaces: Ethernet2/6, Port-channel3.3365
+  Mapped Interfaces: Ethernet2/6, Port-channel3.3365
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 5
+  Failover group: 2
+
+Context "inside11", has been created
+  Config URL: disk0:/inside11
+  Real Interfaces: Ethernet1/11, Ethernet2/2.3353
+  Mapped Interfaces: Ethernet1/11, Ethernet2/2.3353
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 6
+
+Context "inside13", has been created
+  Config URL: disk0:/inside13
+  Real Interfaces: 
+  Mapped Interfaces: 
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 7
+  Failover group: 2
+
+Context "inside14", has been created
+  Config URL: disk0:/inside14
+  Real Interfaces: Ethernet1/14, Port-channel2.3357
+  Mapped Interfaces: Ethernet1/14, Port-channel2.3357
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 8
+
+Context "inside4", has been created
+  Config URL: disk0:/inside4
+  Real Interfaces: Ethernet1/4.3348, Ethernet1/5
+  Mapped Interfaces: Ethernet1/4.3348, Ethernet1/5
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 9
+  Failover group: 2
+
+Context "inside2-1", has been created
+  Config URL: disk0:/inside2-1
+  Real Interfaces: Ethernet2/1.3358-3359
+  Mapped Interfaces: Ethernet2/1.3358-3359
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 10
+
+Context "inside2-2", has been created
+  Config URL: disk0:/inside2-2
+  Real Interfaces: Ethernet2/2.3360, Ethernet2/3.3361
+  Mapped Interfaces: Ethernet2/2.3360, Ethernet2/3.3361
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 11
+  Failover group: 2
+
+Context "inside2-4", has been created
+  Config URL: disk0:/inside2-4
+  Real Interfaces: Ethernet2/4.3362, Ethernet2/5
+  Mapped Interfaces: Ethernet2/4.3362, Ethernet2/5
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000811, ID: 12
+
+Context "null", is a system resource
+  Config URL: ... null ...
+  Real Interfaces: 
+  Mapped Interfaces: 
+  Real IPS Sensors: 
+  Mapped IPS Sensors: 
+  Class: default, Flags: 0x00000809, ID: 507
+
+------------------ Context admin ------------------
+
+
+------------------ show memory ------------------
+
+Used memory:         713354248 bytes ( 5%)
+-------------     ------------------
+Total memory:      15573794816 bytes (100%)
+
+------------------ show conn count ------------------
+
+51 in use, 1753679 most used
+
+------------------ show xlate count ------------------
+
+0 in use, 0 most used
+
+------------------ show vpn-sessiondb summary ------------------
+
+
+ No sessions to display.
+
+
+------------------ show ipsec stats ------------------
+
+
+IPsec Global Statistics
+-----------------------
+Active tunnels: 0
+Previous tunnels: 0
+Inbound
+    Bytes: 0
+    Decompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Replay failures: 0
+    Authentications: 0
+    Authentication failures: 0
+    Decryptions: 0
+    Decryption failures: 0
+    TFC Packets: 0
+    Decapsulated fragments needing reassembly: 0
+    Valid ICMP Errors rcvd: 0
+    Invalid ICMP Errors rcvd: 0
+Outbound
+    Bytes: 0
+    Uncompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Authentications: 0
+    Authentication failures: 0
+    Encryptions: 0
+    Encryption failures: 0
+    TFC Packets: 0
+    Fragmentation successes: 0
+        Pre-fragmentation successses: 0
+        Post-fragmentation successes: 0
+    Fragmentation failures: 0
+        Pre-fragmentation failures: 0
+        Post-fragmentation failures: 0
+    Fragments created: 0
+    PMTUs sent: 0
+    PMTUs rcvd: 0
+Protocol failures: 0
+Missing SA failures: 0
+System capacity failures: 0
+Inbound SA delete requests: 0
+Outbound SA delete requests: 0
+Inbound SA destroy calls: 0
+Outbound SA destroy calls: 0
+
+
+------------------ show crypto ikev1 stats ------------------
+
+
+Global IKEv1 Statistics
+  Active Tunnels:              0
+  Previous Tunnels:            0
+  In Octets:                   0
+  In Packets:                  0
+  In Drop Packets:             0
+  In Notifys:                  0
+  In P2 Exchanges:             0
+  In P2 Exchange Invalids:     0
+  In P2 Exchange Rejects:      0
+  In P2 Sa Delete Requests:    0
+  Out Octets:                  0
+  Out Packets:                 0
+  Out Drop Packets:            0
+  Out Notifys:                 0
+  Out P2 Exchanges:            0
+  Out P2 Exchange Invalids:    0
+  Out P2 Exchange Rejects:     0
+  Out P2 Sa Delete Requests:   0
+  Initiator Tunnels:           0
+  Initiator Fails:             0
+  Responder Fails:             0
+  System Capacity Fails:       0
+  Auth Fails:                  0
+  Decrypt Fails:               0
+  Hash Valid Fails:            0
+  No Sa Fails:                 0
+
+------------------ show crypto ikev2 stats ------------------
+
+
+Global IKEv2 Statistics
+Active Tunnels: 0
+Previous Tunnels: 0
+In Octets: 0
+In Packets: 0
+In Drop Packets: 0
+In Drop Fragments: 0
+In Notifys: 0
+In Child SA Exchanges: 0
+In Child SA Exchange Invalids: 0
+In Child SA Exchange Rejects: 0
+In Child SA Sa Delete Requests: 0
+Out Octets: 0
+Out Packets: 0
+Out Drop Packets: 0
+Out Drop Fragments: 0
+Out Notifys: 0
+Out Child SA Exchanges: 0
+Out Child SA Exchange Invalids: 0
+Out Child SA Exchange Rejects: 0
+Out Child SA Sa Delete Requests: 0
+Initiator Tunnels: 0
+Initiator Fails: 0
+Responder Fails: 0
+System Capacity Fails: 0
+Auth Fails: 0
+Decrypt Fails: 0
+Hash Valid Fails: 0
+No Sa Fails: 0
+
+------------------ show blocks ------------------
+
+  SIZE    MAX    LOW    CNT  INUSE   HIGH
+     0   2700   2659   2700      0      1
+     4    200    200    200      0      0
+    80   1300    275   1300      0     14
+   256   5460   5116   5455      0     36
+  1550   7446   6180   7437   1208   1374
+  2048    600    600    600      0      0
+  2560    903    903    903      0      0
+  4096    103    103    103      0      0
+  8192    103    103    103      0      0
+  9472  10000   2226   6422      0      0
+ 16384    103    103    103      0      0
+
+------------------ show interface ------------------
+
+Interface Management1/1 "diagnostic", is up, line protocol is up
+	IP address 192.168.0.11, subnet mask 255.255.255.0
+  Traffic Statistics for "diagnostic":
+	32321603 packets input, 2614609569 bytes
+	52242880 packets output, 29478373322 bytes
+	70022 packets dropped
+	Management-only interface. Blocked 0 through-the-device packets
+		0 IPv4 packets originated from management network
+		0 IPv4 packets destined to management network
+		0 IPv6 packets originated from management network
+		0 IPv6 packets destined to management network
+  Control Point Interface States:
+	Interface number is 3
+	Interface config status is active
+	Interface state is active
+Interface Ethernet1/13.3354 "inside13", is up, line protocol is up
+  Traffic Statistics for "inside13":
+	95625677 packets input, 9825000331 bytes
+	30601368 packets output, 5550929432 bytes
+	462318 packets dropped
+  Control Point Interface States:
+	Interface number is 30
+	Interface config status is active
+	Interface state is active
+  Control Point Vlan3354 States:
+	Interface vlan config status is active
+	Interface vlan state is UP
+Interface Ethernet1/13.3355 "outside13", is up, line protocol is up
+  Traffic Statistics for "outside13":
+	35488934 packets input, 6437696438 bytes
+	95163369 packets output, 9740856726 bytes
+	4887585 packets dropped
+  Control Point Interface States:
+	Interface number is 31
+	Interface config status is active
+	Interface state is active
+  Control Point Vlan3355 States:
+	Interface vlan config status is active
+	Interface vlan state is UP
+Interface  "nlp_int_tap", is up, line protocol is up
+	IP address 169.254.1.1, subnet mask 255.255.255.248
+  Traffic Statistics for "nlp_int_tap":
+	3 packets input, 188 bytes
+	3397 packets output, 353068 bytes
+	1 packets dropped
+  Control Point Interface States:
+	Interface number is 1
+	Interface config status is active
+	Interface state is active
+
+------------------ show nve ------------------
+
+
+------------------ show traffic ------------------
+
+nlp_int_tap:
+	received (in 687980.920 secs):
+		3 packets	188 bytes
+		0 pkts/sec	0 bytes/sec
+	transmitted (in 687980.920 secs):
+		3397 packets	353068 bytes
+		0 pkts/sec	0 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+diagnostic:
+	received (in 687980.930 secs):
+		32321608 packets	2614609934 bytes
+		3 pkts/sec	3001 bytes/sec
+	transmitted (in 687980.930 secs):
+		52242885 packets	29478373699 bytes
+		1 pkts/sec	42004 bytes/sec
+      1 minute input rate 80 pkts/sec,  6213 bytes/sec
+      1 minute output rate 81 pkts/sec,  7705 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 81 pkts/sec,  6339 bytes/sec
+      5 minute output rate 6128 pkts/sec,  8218785 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+inside13:
+	received (in 687980.930 secs):
+		95625677 packets	9825000331 bytes
+		1 pkts/sec	14006 bytes/sec
+	transmitted (in 687980.930 secs):
+		30601368 packets	5550929432 bytes
+		0 pkts/sec	8006 bytes/sec
+      1 minute input rate 0 pkts/sec,  1 bytes/sec
+      1 minute output rate 0 pkts/sec,  1 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 23738 pkts/sec,  1003812 bytes/sec
+      5 minute output rate 78 pkts/sec,  10096 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+outside13:
+	received (in 687980.930 secs):
+		35488934 packets	6437696438 bytes
+		1 pkts/sec	9001 bytes/sec
+	transmitted (in 687980.930 secs):
+		95163369 packets	9740856726 bytes
+		0 pkts/sec	14002 bytes/sec
+      1 minute input rate 0 pkts/sec,  1 bytes/sec
+      1 minute output rate 0 pkts/sec,  1 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 86 pkts/sec,  10427 bytes/sec
+      5 minute output rate 23738 pkts/sec,  1003808 bytes/sec
+      5 minute drop rate, 7 pkts/sec
+
+------------------ show perfmon ------------------
+
+
+Context: admin
+PERFMON STATS:                     Current      Average
+Xlates                                0/s          0/s
+Connections                           1/s          3/s
+TCP Conns                             0/s          0/s
+UDP Conns                             0/s          2/s
+URL Access                            0/s          0/s
+URL Server Req                        0/s          0/s
+TCP Fixup                             0/s          0/s
+TCP Intercept Established Conns       0/s          0/s
+TCP Intercept Attempts                0/s          0/s
+TCP Embryonic Conns Timeout           0/s          0/s
+FTP Fixup                             0/s          0/s
+AAA Authen                            0/s          0/s
+AAA Author                            0/s          0/s
+AAA Account                           0/s          0/s
+HTTP Fixup                            0/s          0/s
+
+VALID CONNS RATE in TCP INTERCEPT:    Current      Average
+                                       N/A         84.62%
+
+------------------ show counters ------------------
+
+Protocol     Counter                                       Value   Context
+IP           IN_PKTS                                    99737600   Summary
+IP           OUT_PKTS                                   43957064   Summary
+IP           OUT_DROP_DWN                                     82   Summary
+IP           TO_ARP                                     38722053   Summary
+IP           TO_UDP                                     30499196   Summary
+IP           TO_ICMP                                      653521   Summary
+UDP          IN_PKTS                                    30499196   Summary
+UDP          OUT_PKTS                                   30539187   Summary
+ICMP         IN_PKTS                                      653521   Summary
+ICMP         PORT_UNREACH                                 653513   Summary
+SSLERR       BAD_SIGNATURE                                     6   Summary
+SSLALERT     RX_CLOSE_NOTIFY                                  15   Summary
+SSLALERT     RX_WARNING_ALERT                                 15   Summary
+SSLDEV       NEW_CTX                                           6   Summary
+SSL_NP       OPEN_CONN                                         4   Summary
+SSL_NP       HANDSHAKE_START                               54563   Summary
+SSL_NP       HANDSHAKE_DONE                                54563   Summary
+SSL_NP       DOWNSTREAM_CLOSE                              54562   Summary
+SSL_NP       DOWNSTREAM_CLOSE_NEXT                         54562   Summary
+SSL_NP       UPSTREAM_CLOSE                                54562   Summary
+SSL_NP       UPSTREAM_CLOSE_NEXT                           54562   Summary
+SSL_NP       FREE_CONN                                     54562   Summary
+SSL_NP       NEW_CONN_SERVER                               54561   Summary
+SSL_NP       NEW_CONN_CLIENT                                   2   Summary
+SSL_NP       IN_PKTS_RX                                   220788   Summary
+SSL_NP       IN_PKTS_TX                                    54569   Summary
+SSL_NP       OUT_PKTS_RX                                  951835   Summary
+SSL_NP       OUT_PKTS_TX                                 1008910   Summary
+SSL_NP       SESSIONS_CLEARED                               2501   Summary
+SSL_NP       VCID_CHECK_FAIL                                   7   Summary
+SSL_NP       SSL_HANDLE_ALLOC                              54565   Summary
+SSL_NP       SSL_HANDLE_FREE                               54562   Summary
+DNS          IN_PKTS                                          14   Summary
+DNS          OUT_PKTS                                         14   Summary
+DNS          RANDOM_REQ                                       14   Summary
+NPSHIM       CTX_ALLOC                                     54585   Summary
+NPSHIM       CTX_FREE                                      54580   Summary
+NPSHIM       WRITE_UNBLOCKED                              132256   Summary
+NPSHIM       READ_RECV                                      5388   Summary
+VPIF         BAD_VALUE                                   1905306   Summary
+VPIF         NOT_FOUND                                  24855339   Summary
+VPIF         VCID_MISMATCH                               1365535   Summary
+SYSLOG       DROP_SYSLOG                                   51092   Summary
+
+------------------ show asp drop ------------------
+
+
+Frame drop:
+  No route to host (no-route)                                              19164
+  Flow is denied by configured rule (acl-drop)                               831
+  First TCP packet not SYN (tcp-not-syn)                                     705
+  FP L2 rule drop (l2_acl)                                                 15005
+  Interface is down (interface-down)                                          26
+
+Flow drop:
+
+------------------ show asp event dp-cp ------------------
+
+DP-CP EVENT QUEUE                  QUEUE-LEN  HIGH-WATER
+Punt Event Queue                           0          32
+Routing Event Queue                        0           0
+Identity-Traffic Event Queue               0         340
+PTP-Traffic Event Queue                    0           0
+General Event Queue                        0        8192
+Syslog Event Queue                         0        8192
+Non-Blocking Event Queue                   0           8
+Midpath High Event Queue                   0           2
+Midpath Norm Event Queue                   0          18
+Crypto Event Queue                         0           0
+HA Event Queue                             0          28
+Threat-Detection Event Queue               0           0
+SCP Event Queue                            0           0
+ARP Event Queue                            0        1014
+IDFW Event Queue                           0           0
+CXSC Event Queue                           0           0
+BFD Event Queue                            0           0
+SFR Event Queue                            0           0
+Cluster Event Queue                        0           0
+
+EVENT-TYPE          ALLOC ALLOC-FAIL ENQUEUED ENQ-FAIL  RETIRED 15SEC-RATE
+punt              1010829          0  1010829        0  1010829          0
+  inspect-ftp      480856          0   480856        0   480856          0
+  inspect-skinn     72945          0    72945        0    72945          0
+  inspect-smtp     457028          0   457028        0   457028          0
+drop-flow               0          0   279136        0   279136          0
+midpath-high        73280          0    73280        0    73280          0
+midpath-norm       558879          0   558879        0   558879          0
+adj-absent           5545          0     5545        0     5545          0
+arp-in           38722053          0 38722053        0 38722053          0
+identity-traffic 59255421          0 59255421        0 59255421         68
+syslog           21155164595          0 20494497616 660666979 21155164595         21
+snmp             593832790          0 582632331 11200459 593832790          0
+scheduler              16          0       16        0       16          0
+ha-msg            1782963          0  1782963        0  1782963          0
+
+------------------ show service-policy ------------------
+
+
+Global policy: 
+  Service-policy: global_policy
+    Class-map: inspection_default
+      Inspect: dns migrated_dns_map_1, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        message-length maximum client auto, drop 0
+        message-length maximum 512, drop 0
+        dns-guard, count 0
+        protocol-enforcement, drop 0
+        nat-rewrite, count 0
+      Inspect: ftp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: h323 h225 _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+        h245-tunnel-block drops 0 connection
+      Inspect: h323 ras _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        h245-tunnel-block drops 0 connection
+      Inspect: ip-options _default_ip_options_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+RTRALT         allow 0, clear 0
+      Inspect: netbios, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: rsh, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: rtsp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: skinny , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: esmtp _default_esmtp_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        mask-banner, count 0
+        allow-tls, count 0
+        match cmd line length gt 512 
+          drop-connection log, packet 0
+        match cmd RCPT count gt 100 
+          drop-connection log, packet 0
+        match body line length gt 998 
+          log, packet 0
+        match header line length gt 998 
+          drop-connection log, packet 0
+        match sender-address length gt 320 
+          drop-connection log, packet 0
+        match MIME filename length gt 255 
+          drop-connection log, packet 0
+        match ehlo-reply-parameter others 
+          mask, packet 0
+      Inspect: sqlnet, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: sunrpc, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: tftp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: sip , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: xdmcp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: ipv6 _default_ipv6_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        params verify-header type fails 0
+        params verify-header order fails 0
+        match header routing-type
+          drop, packet 0
+          log, packet 0
+    Class-map: class-default
+
+      Default Queueing      Set connection policy:         drop 0
+      Set connection advanced-options: UM_STATIC_TCP_MAP
+        Retransmission drops: 0                   TCP checksum drops : 0          
+        Exceeded MSS drops  : 0                   SYN with data drops: 0          
+        Invalid ACK drops   : 0                   SYN-ACK with data drops: 0          
+        Out-of-order (OoO) packets : 0            OoO no buffer drops: 0          
+        OoO buffer timeout drops : 0              SEQ past window drops: 0          
+        Reserved bit cleared: 0                   Reserved bit drops : 0          
+        IP TTL modified     : 0                   Urgent flag cleared: 0          
+        Window varied resets: 0          
+        TCP-options:
+          Selective ACK cleared: 0                Timestamp cleared  : 0          
+          Window scale cleared : 0          
+          Other options cleared: 0          
+          Other options drops: 0          
+	Packet recieved 0, sent 0, attack 0
+
+------------------ show capture ------------------
+
+capture capasp type asp-drop all [Buffer Full - 524238 bytes] 
+capture capi type raw-data [Capturing - 0 bytes] 
+  match icmp any host 10.197.212.99 
+capture arp type raw-data ethernet-type arp [Capturing - 0 bytes] 
+
+
+------------------ Context inside1 ------------------
+
+
+------------------ show memory ------------------
+
+Used memory:         281434712 bytes ( 2%)
+-------------     ------------------
+Total memory:      15573794816 bytes (100%)
+
+------------------ show conn count ------------------
+
+2 in use, 1448939 most used
+
+------------------ show xlate count ------------------
+
+0 in use, 1490021 most used
+
+------------------ show vpn-sessiondb summary ------------------
+
+
+ No sessions to display.
+
+
+------------------ show ipsec stats ------------------
+
+
+IPsec Global Statistics
+-----------------------
+Active tunnels: 0
+Previous tunnels: 0
+Inbound
+    Bytes: 0
+    Decompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Replay failures: 0
+    Authentications: 0
+    Authentication failures: 0
+    Decryptions: 0
+    Decryption failures: 0
+    TFC Packets: 0
+    Decapsulated fragments needing reassembly: 0
+    Valid ICMP Errors rcvd: 0
+    Invalid ICMP Errors rcvd: 0
+Outbound
+    Bytes: 0
+    Uncompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Authentications: 0
+    Authentication failures: 0
+    Encryptions: 0
+    Encryption failures: 0
+    TFC Packets: 0
+    Fragmentation successes: 0
+        Pre-fragmentation successses: 0
+        Post-fragmentation successes: 0
+    Fragmentation failures: 0
+        Pre-fragmentation failures: 0
+        Post-fragmentation failures: 0
+    Fragments created: 0
+    PMTUs sent: 0
+    PMTUs rcvd: 0
+Protocol failures: 0
+Missing SA failures: 0
+System capacity failures: 0
+Inbound SA delete requests: 0
+Outbound SA delete requests: 0
+Inbound SA destroy calls: 0
+Outbound SA destroy calls: 0
+
+
+------------------ show crypto ikev1 stats ------------------
+
+
+Global IKEv1 Statistics
+  Active Tunnels:              0
+  Previous Tunnels:            0
+  In Octets:                   0
+  In Packets:                  0
+  In Drop Packets:             0
+  In Notifys:                  0
+  In P2 Exchanges:             0
+  In P2 Exchange Invalids:     0
+  In P2 Exchange Rejects:      0
+  In P2 Sa Delete Requests:    0
+  Out Octets:                  0
+  Out Packets:                 0
+  Out Drop Packets:            0
+  Out Notifys:                 0
+  Out P2 Exchanges:            0
+  Out P2 Exchange Invalids:    0
+  Out P2 Exchange Rejects:     0
+  Out P2 Sa Delete Requests:   0
+  Initiator Tunnels:           0
+  Initiator Fails:             0
+  Responder Fails:             0
+  System Capacity Fails:       0
+  Auth Fails:                  0
+  Decrypt Fails:               0
+  Hash Valid Fails:            0
+  No Sa Fails:                 0
+
+------------------ show crypto ikev2 stats ------------------
+
+
+Global IKEv2 Statistics
+Active Tunnels: 0
+Previous Tunnels: 0
+In Octets: 0
+In Packets: 0
+In Drop Packets: 0
+In Drop Fragments: 0
+In Notifys: 0
+In Child SA Exchanges: 0
+In Child SA Exchange Invalids: 0
+In Child SA Exchange Rejects: 0
+In Child SA Sa Delete Requests: 0
+Out Octets: 0
+Out Packets: 0
+Out Drop Packets: 0
+Out Drop Fragments: 0
+Out Notifys: 0
+Out Child SA Exchanges: 0
+Out Child SA Exchange Invalids: 0
+Out Child SA Exchange Rejects: 0
+Out Child SA Sa Delete Requests: 0
+Initiator Tunnels: 0
+Initiator Fails: 0
+Responder Fails: 0
+System Capacity Fails: 0
+Auth Fails: 0
+Decrypt Fails: 0
+Hash Valid Fails: 0
+No Sa Fails: 0
+
+------------------ show blocks ------------------
+
+  SIZE    MAX    LOW    CNT  INUSE   HIGH
+     0   2700   2659   2700      0      0
+     4    200    200    200      0      0
+    80   1300    275   1300     39    517
+   256   5460   5116   5455      0    338
+  1550   7446   6180   7438    397    663
+  2048    600    600    600      0      0
+  2560    903    903    903      0      0
+  4096    103    103    103      0      0
+  8192    103    103    103      0      0
+  9472  10000   2226   6422      0      0
+ 16384    103    103    103      0      0
+
+------------------ show interface ------------------
+
+Interface Ethernet1/1.3344 "inside1", is up, line protocol is up
+  Traffic Statistics for "inside1":
+	8997654422 packets input, 1026279519222 bytes
+	7139461119 packets output, 320789631713 bytes
+	160551335 packets dropped
+  Control Point Interface States:
+	Interface number is 1
+	Interface config status is active
+	Interface state is active
+  Control Point Vlan3344 States:
+	Interface vlan config status is active
+	Interface vlan state is UP
+Interface Ethernet1/1.3345 "outside1", is up, line protocol is up
+  Traffic Statistics for "outside1":
+	7018298890 packets input, 315935086585 bytes
+	8831223452 packets output, 1018865276748 bytes
+	1964002 packets dropped
+  Control Point Interface States:
+	Interface number is 2
+	Interface config status is active
+	Interface state is active
+  Control Point Vlan3345 States:
+	Interface vlan config status is active
+	Interface vlan state is UP
+
+------------------ show nve ------------------
+
+
+------------------ show traffic ------------------
+
+inside1:
+	received (in 687983.070 secs):
+		8997654422 packets	1026279519222 bytes
+		13003 pkts/sec	1491004 bytes/sec
+	transmitted (in 687983.070 secs):
+		7139461119 packets	320789631713 bytes
+		10002 pkts/sec	466000 bytes/sec
+      1 minute input rate 0 pkts/sec,  26 bytes/sec
+      1 minute output rate 0 pkts/sec,  1 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  29 bytes/sec
+      5 minute output rate 0 pkts/sec,  4 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+outside1:
+	received (in 687983.080 secs):
+		7018298890 packets	315935086585 bytes
+		10001 pkts/sec	459000 bytes/sec
+	transmitted (in 687983.080 secs):
+		8831223452 packets	1018865276748 bytes
+		12006 pkts/sec	1480002 bytes/sec
+      1 minute input rate 0 pkts/sec,  26 bytes/sec
+      1 minute output rate 0 pkts/sec,  1 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  26 bytes/sec
+      5 minute output rate 0 pkts/sec,  1 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+
+------------------ show perfmon ------------------
+
+
+Context: inside1
+PERFMON STATS:                     Current      Average
+Xlates                                0/s          1/s
+Connections                           0/s          6/s
+TCP Conns                             0/s          6/s
+UDP Conns                             0/s          0/s
+URL Access                            0/s          0/s
+URL Server Req                        0/s          0/s
+TCP Fixup                             0/s          0/s
+TCP Intercept Established Conns       0/s          0/s
+TCP Intercept Attempts                0/s          0/s
+TCP Embryonic Conns Timeout           0/s          0/s
+FTP Fixup                             0/s          0/s
+AAA Authen                            0/s          0/s
+AAA Author                            0/s          0/s
+AAA Account                           0/s          0/s
+HTTP Fixup                            0/s          0/s
+
+VALID CONNS RATE in TCP INTERCEPT:    Current      Average
+                                       N/A         N/A
+
+------------------ show counters ------------------
+
+Protocol     Counter                                       Value   Context
+IP           IN_PKTS                                    99737739   Summary
+IP           OUT_PKTS                                   43957205   Summary
+IP           OUT_DROP_DWN                                     82   Summary
+IP           TO_ARP                                     38722053   Summary
+IP           TO_UDP                                     30499326   Summary
+IP           TO_ICMP                                      653525   Summary
+UDP          IN_PKTS                                    30499326   Summary
+UDP          OUT_PKTS                                   30539320   Summary
+ICMP         IN_PKTS                                      653525   Summary
+ICMP         PORT_UNREACH                                 653517   Summary
+SSLERR       BAD_SIGNATURE                                     6   Summary
+SSLALERT     RX_CLOSE_NOTIFY                                  15   Summary
+SSLALERT     RX_WARNING_ALERT                                 15   Summary
+SSLDEV       NEW_CTX                                           6   Summary
+SSL_NP       OPEN_CONN                                         4   Summary
+SSL_NP       HANDSHAKE_START                               54564   Summary
+SSL_NP       HANDSHAKE_DONE                                54564   Summary
+SSL_NP       DOWNSTREAM_CLOSE                              54562   Summary
+SSL_NP       DOWNSTREAM_CLOSE_NEXT                         54562   Summary
+SSL_NP       UPSTREAM_CLOSE                                54562   Summary
+SSL_NP       UPSTREAM_CLOSE_NEXT                           54562   Summary
+SSL_NP       FREE_CONN                                     54562   Summary
+SSL_NP       NEW_CONN_SERVER                               54562   Summary
+SSL_NP       NEW_CONN_CLIENT                                   2   Summary
+SSL_NP       IN_PKTS_RX                                   220792   Summary
+SSL_NP       IN_PKTS_TX                                    54570   Summary
+SSL_NP       OUT_PKTS_RX                                  951839   Summary
+SSL_NP       OUT_PKTS_TX                                 1008915   Summary
+SSL_NP       SESSIONS_CLEARED                               2501   Summary
+SSL_NP       VCID_CHECK_FAIL                                   7   Summary
+SSL_NP       SSL_HANDLE_ALLOC                              54566   Summary
+SSL_NP       SSL_HANDLE_FREE                               54562   Summary
+DNS          IN_PKTS                                          14   Summary
+DNS          OUT_PKTS                                         14   Summary
+DNS          RANDOM_REQ                                       14   Summary
+NPSHIM       CTX_ALLOC                                     54586   Summary
+NPSHIM       CTX_FREE                                      54580   Summary
+NPSHIM       WRITE_UNBLOCKED                              132256   Summary
+NPSHIM       READ_RECV                                      5388   Summary
+VPIF         BAD_VALUE                                   1905308   Summary
+VPIF         NOT_FOUND                                  25019718   Summary
+VPIF         VCID_MISMATCH                               1365535   Summary
+SYSLOG       DROP_SYSLOG                                   51092   Summary
+
+------------------ show asp drop ------------------
+
+
+Frame drop:
+  No route to host (no-route)                                              19164
+  Flow is denied by configured rule (acl-drop)                               831
+  First TCP packet not SYN (tcp-not-syn)                                     705
+  FP L2 rule drop (l2_acl)                                                 15009
+  Interface is down (interface-down)                                          26
+
+Last clearing: Never
+
+Flow drop:
+
+Last clearing: Never
+
+------------------ show asp event dp-cp ------------------
+
+DP-CP EVENT QUEUE                  QUEUE-LEN  HIGH-WATER
+Punt Event Queue                           0          32
+Routing Event Queue                        0           0
+Identity-Traffic Event Queue               0         340
+PTP-Traffic Event Queue                    0           0
+General Event Queue                        0        8192
+Syslog Event Queue                         0        8192
+Non-Blocking Event Queue                   0           8
+Midpath High Event Queue                   0           2
+Midpath Norm Event Queue                   0          18
+Crypto Event Queue                         0           0
+HA Event Queue                             0          28
+Threat-Detection Event Queue               0           0
+SCP Event Queue                            0           0
+ARP Event Queue                            0        1014
+IDFW Event Queue                           0           0
+CXSC Event Queue                           0           0
+BFD Event Queue                            0           0
+SFR Event Queue                            0           0
+Cluster Event Queue                        0           0
+
+EVENT-TYPE          ALLOC ALLOC-FAIL ENQUEUED ENQ-FAIL  RETIRED 15SEC-RATE
+punt              1010829          0  1010829        0  1010829          0
+  inspect-ftp      480856          0   480856        0   480856          0
+  inspect-skinn     72945          0    72945        0    72945          0
+  inspect-smtp     457028          0   457028        0   457028          0
+drop-flow               0          0   279136        0   279136          0
+midpath-high        73281          0    73281        0    73281          0
+midpath-norm       558882          0   558882        0   558882          0
+adj-absent           5545          0     5545        0     5545          0
+arp-in           38722055          0 38722055        0 38722055          0
+identity-traffic 59255549          0 59255549        0 59255549         71
+syslog           21155164603          0 20494497624 660666979 21155164603         21
+snmp             593832790          0 582632331 11200459 593832790          0
+scheduler              16          0       16        0       16          0
+ha-msg            1782972          0  1782972        0  1782972          0
+
+------------------ show service-policy ------------------
+
+
+Global policy: 
+  Service-policy: global_policy
+    Class-map: inspection_default
+      Inspect: dns preset_dns_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        message-length maximum client auto, drop 0
+        message-length maximum 512, drop 0
+        dns-guard, count 0
+        protocol-enforcement, drop 0
+        nat-rewrite, count 0
+      Inspect: ftp, packet 23818, lock fail 0, drop 0, reset-drop 8, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               Can't alloc back conn drop       8
+      Inspect: h323 h225 _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+        h245-tunnel-block drops 0 connection
+      Inspect: h323 ras _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        h245-tunnel-block drops 0 connection
+      Inspect: ip-options _default_ip_options_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+RTRALT         allow 0, clear 0
+      Inspect: netbios, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: rsh, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: rtsp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: skinny , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: esmtp _default_esmtp_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        mask-banner, count 0
+        allow-tls, count 0
+        match cmd line length gt 512 
+          drop-connection log, packet 0
+        match cmd RCPT count gt 100 
+          drop-connection log, packet 0
+        match body line length gt 998 
+          log, packet 0
+        match header line length gt 998 
+          drop-connection log, packet 0
+        match sender-address length gt 320 
+          drop-connection log, packet 0
+        match MIME filename length gt 255 
+          drop-connection log, packet 0
+        match ehlo-reply-parameter others 
+          mask, packet 0
+      Inspect: sqlnet, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: sunrpc, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: tftp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: sip , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: xdmcp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+
+------------------ show capture ------------------
+
+
+------------------ Context inside2 ------------------
+
+
+------------------ show memory ------------------
+
+Used memory:         153840016 bytes ( 1%)
+-------------     ------------------
+Total memory:      15573794816 bytes (100%)
+
+------------------ show conn count ------------------
+
+2 in use, 672450 most used
+
+------------------ show xlate count ------------------
+
+0 in use, 670902 most used
+
+------------------ show vpn-sessiondb summary ------------------
+
+
+ No sessions to display.
+
+
+------------------ show ipsec stats ------------------
+
+
+IPsec Global Statistics
+-----------------------
+Active tunnels: 0
+Previous tunnels: 0
+Inbound
+    Bytes: 0
+    Decompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Replay failures: 0
+    Authentications: 0
+    Authentication failures: 0
+    Decryptions: 0
+    Decryption failures: 0
+    TFC Packets: 0
+    Decapsulated fragments needing reassembly: 0
+    Valid ICMP Errors rcvd: 0
+    Invalid ICMP Errors rcvd: 0
+Outbound
+    Bytes: 0
+    Uncompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Authentications: 0
+    Authentication failures: 0
+    Encryptions: 0
+    Encryption failures: 0
+    TFC Packets: 0
+    Fragmentation successes: 0
+        Pre-fragmentation successses: 0
+        Post-fragmentation successes: 0
+    Fragmentation failures: 0
+        Pre-fragmentation failures: 0
+        Post-fragmentation failures: 0
+    Fragments created: 0
+    PMTUs sent: 0
+    PMTUs rcvd: 0
+Protocol failures: 0
+Missing SA failures: 0
+System capacity failures: 0
+Inbound SA delete requests: 0
+Outbound SA delete requests: 0
+Inbound SA destroy calls: 0
+Outbound SA destroy calls: 0
+
+
+------------------ show crypto ikev1 stats ------------------
+
+
+Global IKEv1 Statistics
+  Standby Tunnels:             0
+  Previous Tunnels:            0
+  In Octets:                   0
+  In Packets:                  0
+  In Drop Packets:             0
+  In Notifys:                  0
+  In P2 Exchanges:             0
+  In P2 Exchange Invalids:     0
+  In P2 Exchange Rejects:      0
+  In P2 Sa Delete Requests:    0
+  Out Octets:                  0
+  Out Packets:                 0
+  Out Drop Packets:            0
+  Out Notifys:                 0
+  Out P2 Exchanges:            0
+  Out P2 Exchange Invalids:    0
+  Out P2 Exchange Rejects:     0
+  Out P2 Sa Delete Requests:   0
+  Initiator Tunnels:           0
+  Initiator Fails:             0
+  Responder Fails:             0
+  System Capacity Fails:       0
+  Auth Fails:                  0
+  Decrypt Fails:               0
+  Hash Valid Fails:            0
+  No Sa Fails:                 0
+
+------------------ show crypto ikev2 stats ------------------
+
+
+Global IKEv2 Statistics
+Standby Tunnels: 0
+Previous Tunnels: 0
+In Octets: 0
+In Packets: 0
+In Drop Packets: 0
+In Drop Fragments: 0
+In Notifys: 0
+In Child SA Exchanges: 0
+In Child SA Exchange Invalids: 0
+In Child SA Exchange Rejects: 0
+In Child SA Sa Delete Requests: 0
+Out Octets: 0
+Out Packets: 0
+Out Drop Packets: 0
+Out Drop Fragments: 0
+Out Notifys: 0
+Out Child SA Exchanges: 0
+Out Child SA Exchange Invalids: 0
+Out Child SA Exchange Rejects: 0
+Out Child SA Sa Delete Requests: 0
+Initiator Tunnels: 0
+Initiator Fails: 0
+Responder Fails: 0
+System Capacity Fails: 0
+Auth Fails: 0
+Decrypt Fails: 0
+Hash Valid Fails: 0
+No Sa Fails: 0
+
+------------------ show blocks ------------------
+
+  SIZE    MAX    LOW    CNT  INUSE   HIGH
+     0   2700   2659   2700      0      0
+     4    200    200    200      0      0
+    80   1300    275   1300      1    275
+   256   5460   5116   5455      0     37
+  1550   7446   6180   7438      0    224
+  2048    600    600    600      0      0
+  2560    903    903    903      0      0
+  4096    103    103    103      0      0
+  8192    103    103    103      0      0
+  9472  10000   2226   6422      0      0
+ 16384    103    103    103      0      0
+
+------------------ show interface ------------------
+
+Interface Ethernet1/2.3346 "inside2", is up, line protocol is up
+	IP address unassigned
+  Traffic Statistics for "inside2":
+	30154197 packets input, 2374892182 bytes
+	18158139 packets output, 775411237 bytes
+	10211974 packets dropped
+  Control Point Interface States:
+	Interface number is 1
+	Interface config status is active
+	Interface state is active
+  Control Point Vlan3346 States:
+	Interface vlan config status is active
+	Interface vlan state is UP
+Interface Ethernet1/3.3347 "outside3", is up, line protocol is up
+	IP address unassigned
+  Traffic Statistics for "outside3":
+	8545976 packets input, 390646990 bytes
+	11269440 packets output, 1559154727 bytes
+	1760 packets dropped
+  Control Point Interface States:
+	Interface number is 2
+	Interface config status is active
+	Interface state is active
+  Control Point Vlan3347 States:
+	Interface vlan config status is active
+	Interface vlan state is UP
+
+------------------ show nve ------------------
+
+
+------------------ show traffic ------------------
+
+inside2:
+	received (in 687983.880 secs):
+		30154197 packets	2374892182 bytes
+		0 pkts/sec	3002 bytes/sec
+	transmitted (in 687983.880 secs):
+		18158139 packets	775411237 bytes
+		1 pkts/sec	1002 bytes/sec
+      1 minute input rate 0 pkts/sec,  26 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  28 bytes/sec
+      5 minute output rate 0 pkts/sec,  3 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+outside3:
+	received (in 687983.880 secs):
+		8545976 packets	390646990 bytes
+		6 pkts/sec	5 bytes/sec
+	transmitted (in 687983.880 secs):
+		11269440 packets	1559154727 bytes
+		3 pkts/sec	2004 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+
+------------------ show perfmon ------------------
+
+
+Context: inside2
+PERFMON STATS:                     Current      Average
+Xlates                                0/s          2/s
+Connections                           0/s          2/s
+TCP Conns                             0/s          2/s
+UDP Conns                             0/s          0/s
+URL Access                            0/s          0/s
+URL Server Req                        0/s          0/s
+TCP Fixup                             0/s          0/s
+TCP Intercept Established Conns       0/s          0/s
+TCP Intercept Attempts                0/s          0/s
+TCP Embryonic Conns Timeout           0/s          0/s
+FTP Fixup                             0/s          0/s
+AAA Authen                            0/s          0/s
+AAA Author                            0/s          0/s
+AAA Account                           0/s          0/s
+HTTP Fixup                            0/s          0/s
+
+VALID CONNS RATE in TCP INTERCEPT:    Current      Average
+                                       N/A         N/A
+
+------------------ show counters ------------------
+
+Protocol     Counter                                       Value   Context
+IP           IN_PKTS                                    99737760   Summary
+IP           OUT_PKTS                                   43957222   Summary
+IP           OUT_DROP_DWN                                     82   Summary
+IP           TO_ARP                                     38722055   Summary
+IP           TO_UDP                                     30499342   Summary
+IP           TO_ICMP                                      653526   Summary
+UDP          IN_PKTS                                    30499342   Summary
+UDP          OUT_PKTS                                   30539336   Summary
+ICMP         IN_PKTS                                      653526   Summary
+ICMP         PORT_UNREACH                                 653518   Summary
+SSLERR       BAD_SIGNATURE                                     6   Summary
+SSLALERT     RX_CLOSE_NOTIFY                                  15   Summary
+SSLALERT     RX_WARNING_ALERT                                 15   Summary
+SSLDEV       NEW_CTX                                           6   Summary
+SSL_NP       OPEN_CONN                                         4   Summary
+SSL_NP       HANDSHAKE_START                               54564   Summary
+SSL_NP       HANDSHAKE_DONE                                54564   Summary
+SSL_NP       DOWNSTREAM_CLOSE                              54563   Summary
+SSL_NP       DOWNSTREAM_CLOSE_NEXT                         54563   Summary
+SSL_NP       UPSTREAM_CLOSE                                54563   Summary
+SSL_NP       UPSTREAM_CLOSE_NEXT                           54563   Summary
+SSL_NP       FREE_CONN                                     54563   Summary
+SSL_NP       NEW_CONN_SERVER                               54562   Summary
+SSL_NP       NEW_CONN_CLIENT                                   2   Summary
+SSL_NP       IN_PKTS_RX                                   220792   Summary
+SSL_NP       IN_PKTS_TX                                    54570   Summary
+SSL_NP       OUT_PKTS_RX                                  951850   Summary
+SSL_NP       OUT_PKTS_TX                                 1008926   Summary
+SSL_NP       SESSIONS_CLEARED                               2501   Summary
+SSL_NP       VCID_CHECK_FAIL                                   7   Summary
+SSL_NP       SSL_HANDLE_ALLOC                              54566   Summary
+SSL_NP       SSL_HANDLE_FREE                               54563   Summary
+DNS          IN_PKTS                                          14   Summary
+DNS          OUT_PKTS                                         14   Summary
+DNS          RANDOM_REQ                                       14   Summary
+NPSHIM       CTX_ALLOC                                     54586   Summary
+NPSHIM       CTX_FREE                                      54581   Summary
+NPSHIM       WRITE_UNBLOCKED                              132258   Summary
+NPSHIM       READ_RECV                                      5388   Summary
+VPIF         BAD_VALUE                                   1905309   Summary
+VPIF         NOT_FOUND                                  25075315   Summary
+VPIF         VCID_MISMATCH                               1365535   Summary
+SYSLOG       DROP_SYSLOG                                   51092   Summary
+
+------------------ show asp drop ------------------
+
+
+Frame drop:
+  No route to host (no-route)                                              19164
+  Flow is denied by configured rule (acl-drop)                               831
+  First TCP packet not SYN (tcp-not-syn)                                     706
+  FP L2 rule drop (l2_acl)                                                 15013
+  Interface is down (interface-down)                                          26
+
+Last clearing: Never
+
+Flow drop:
+
+Last clearing: Never
+
+------------------ show asp event dp-cp ------------------
+
+DP-CP EVENT QUEUE                  QUEUE-LEN  HIGH-WATER
+Punt Event Queue                           0          32
+Routing Event Queue                        0           0
+Identity-Traffic Event Queue               0         340
+PTP-Traffic Event Queue                    0           0
+General Event Queue                        0        8192
+Syslog Event Queue                         0        8192
+Non-Blocking Event Queue                   0           8
+Midpath High Event Queue                   0           2
+Midpath Norm Event Queue                   0          18
+Crypto Event Queue                         0           0
+HA Event Queue                             0          28
+Threat-Detection Event Queue               0           0
+SCP Event Queue                            0           0
+ARP Event Queue                            0        1014
+IDFW Event Queue                           0           0
+CXSC Event Queue                           0           0
+BFD Event Queue                            0           0
+SFR Event Queue                            0           0
+Cluster Event Queue                        0           0
+
+EVENT-TYPE          ALLOC ALLOC-FAIL ENQUEUED ENQ-FAIL  RETIRED 15SEC-RATE
+punt              1010829          0  1010829        0  1010829          0
+  inspect-ftp      480856          0   480856        0   480856          0
+  inspect-skinn     72945          0    72945        0    72945          0
+  inspect-smtp     457028          0   457028        0   457028          0
+drop-flow               0          0   279136        0   279136          0
+midpath-high        73281          0    73281        0    73281          0
+midpath-norm       558886          0   558886        0   558886          0
+adj-absent           5545          0     5545        0     5545          0
+arp-in           38722055          0 38722055        0 38722055          0
+identity-traffic 59255573          0 59255573        0 59255573         71
+syslog           21155164605          0 20494497626 660666979 21155164605         21
+snmp             593832790          0 582632331 11200459 593832790          0
+scheduler              16          0       16        0       16          0
+ha-msg            1782972          0  1782972        0  1782972          0
+
+------------------ show service-policy ------------------
+
+
+Global policy: 
+  Service-policy: global_policy
+    Class-map: inspection_default
+      Inspect: dns preset_dns_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        message-length maximum client auto, drop 0
+        message-length maximum 512, drop 0
+        dns-guard, count 0
+        protocol-enforcement, drop 0
+        nat-rewrite, count 0
+      Inspect: ftp, packet 457010, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: h323 h225 _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+        h245-tunnel-block drops 0 connection
+      Inspect: h323 ras _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        h245-tunnel-block drops 0 connection
+      Inspect: ip-options _default_ip_options_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+RTRALT         allow 0, clear 0
+      Inspect: netbios, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: rsh, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: rtsp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: skinny , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: esmtp _default_esmtp_map, packet 457028, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        mask-banner, count 0
+        allow-tls, count 0
+        match cmd line length gt 512 
+          drop-connection log, packet 0
+        match cmd RCPT count gt 100 
+          drop-connection log, packet 0
+        match body line length gt 998 
+          log, packet 0
+        match header line length gt 998 
+          drop-connection log, packet 0
+        match sender-address length gt 320 
+          drop-connection log, packet 0
+        match MIME filename length gt 255 
+          drop-connection log, packet 0
+        match ehlo-reply-parameter others 
+          mask, packet 0
+      Inspect: sqlnet, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: sunrpc, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: tftp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: sip , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: xdmcp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+
+------------------ show capture ------------------
+
+
+
+
+------------------ Context inside-6-7-9-10 ------------------
+
+
+------------------ show memory ------------------
+
+Used memory:         179010936 bytes ( 1%)
+-------------     ------------------
+Total memory:      15573794816 bytes (100%)
+
+------------------ show conn count ------------------
+
+2 in use, 414470 most used
+
+------------------ show xlate count ------------------
+
+0 in use, 400689 most used
+
+------------------ show vpn-sessiondb summary ------------------
+
+
+ No sessions to display.
+
+
+------------------ show ipsec stats ------------------
+
+
+IPsec Global Statistics
+-----------------------
+Active tunnels: 0
+Previous tunnels: 0
+Inbound
+    Bytes: 0
+    Decompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Replay failures: 0
+    Authentications: 0
+    Authentication failures: 0
+    Decryptions: 0
+    Decryption failures: 0
+    TFC Packets: 0
+    Decapsulated fragments needing reassembly: 0
+    Valid ICMP Errors rcvd: 0
+    Invalid ICMP Errors rcvd: 0
+Outbound
+    Bytes: 0
+    Uncompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Authentications: 0
+    Authentication failures: 0
+    Encryptions: 0
+    Encryption failures: 0
+    TFC Packets: 0
+    Fragmentation successes: 0
+        Pre-fragmentation successses: 0
+        Post-fragmentation successes: 0
+    Fragmentation failures: 0
+        Pre-fragmentation failures: 0
+        Post-fragmentation failures: 0
+    Fragments created: 0
+    PMTUs sent: 0
+    PMTUs rcvd: 0
+Protocol failures: 0
+Missing SA failures: 0
+System capacity failures: 0
+Inbound SA delete requests: 0
+Outbound SA delete requests: 0
+Inbound SA destroy calls: 0
+Outbound SA destroy calls: 0
+
+
+------------------ show crypto ikev1 stats ------------------
+
+
+Global IKEv1 Statistics
+  Active Tunnels:              0
+  Previous Tunnels:            0
+  In Octets:                   0
+  In Packets:                  0
+  In Drop Packets:             0
+  In Notifys:                  0
+  In P2 Exchanges:             0
+  In P2 Exchange Invalids:     0
+  In P2 Exchange Rejects:      0
+  In P2 Sa Delete Requests:    0
+  Out Octets:                  0
+  Out Packets:                 0
+  Out Drop Packets:            0
+  Out Notifys:                 0
+  Out P2 Exchanges:            0
+  Out P2 Exchange Invalids:    0
+  Out P2 Exchange Rejects:     0
+  Out P2 Sa Delete Requests:   0
+  Initiator Tunnels:           0
+  Initiator Fails:             0
+  Responder Fails:             0
+  System Capacity Fails:       0
+  Auth Fails:                  0
+  Decrypt Fails:               0
+  Hash Valid Fails:            0
+  No Sa Fails:                 0
+
+------------------ show crypto ikev2 stats ------------------
+
+
+Global IKEv2 Statistics
+Active Tunnels: 0
+Previous Tunnels: 0
+In Octets: 0
+In Packets: 0
+In Drop Packets: 0
+In Drop Fragments: 0
+In Notifys: 0
+In Child SA Exchanges: 0
+In Child SA Exchange Invalids: 0
+In Child SA Exchange Rejects: 0
+In Child SA Sa Delete Requests: 0
+Out Octets: 0
+Out Packets: 0
+Out Drop Packets: 0
+Out Drop Fragments: 0
+Out Notifys: 0
+Out Child SA Exchanges: 0
+Out Child SA Exchange Invalids: 0
+Out Child SA Exchange Rejects: 0
+Out Child SA Sa Delete Requests: 0
+Initiator Tunnels: 0
+Initiator Fails: 0
+Responder Fails: 0
+System Capacity Fails: 0
+Auth Fails: 0
+Decrypt Fails: 0
+Hash Valid Fails: 0
+No Sa Fails: 0
+
+------------------ show blocks ------------------
+
+  SIZE    MAX    LOW    CNT  INUSE   HIGH
+     0   2700   2659   2700      0      0
+     4    200    200    200      0      0
+    80   1300    275   1300     78    798
+   256   5460   5116   5455      0    298
+  1550   7446   6180   7437   2321   2633
+  2048    600    600    600      0      0
+  2560    903    903    903      0      0
+  4096    103    103    103      0      0
+  8192    103    103    103      0      0
+  9472  10000   2226   6044      0      0
+ 16384    103    103    103      0      0
+
+------------------ show interface ------------------
+
+Interface Port-channel1.3350 "inside-6-7-9-10", is up, line protocol is up
+  Traffic Statistics for "inside-6-7-9-10":
+	42541379244 packets input, 2017663568766 bytes
+	33959662844 packets output, 1408098979082 bytes
+	374080752 packets dropped
+  Control Point Interface States:
+	Interface number is 1
+	Interface config status is active
+	Interface state is active
+  Control Point Vlan3350 States:
+	Interface vlan config status is active
+	Interface vlan state is UP
+Interface Port-channel1.3351 "outside-6-7-9-10", is up, line protocol is up
+  Traffic Statistics for "outside-6-7-9-10":
+	33624104586 packets input, 1394682569084 bytes
+	42165620704 packets output, 2001133404952 bytes
+	936523 packets dropped
+  Control Point Interface States:
+	Interface number is 2
+	Interface config status is active
+	Interface state is active
+  Control Point Vlan3351 States:
+	Interface vlan config status is active
+	Interface vlan state is UP
+
+------------------ show nve ------------------
+
+
+------------------ show traffic ------------------
+
+inside-6-7-9-10:
+	received (in 687985.150 secs):
+		42541379244 packets	2017663568766 bytes
+		61004 pkts/sec	2932002 bytes/sec
+	transmitted (in 687985.150 secs):
+		33959662844 packets	1408098979082 bytes
+		49005 pkts/sec	2046000 bytes/sec
+      1 minute input rate 0 pkts/sec,  1 bytes/sec
+      1 minute output rate 0 pkts/sec,  1 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  1 bytes/sec
+      5 minute output rate 0 pkts/sec,  1 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+outside-6-7-9-10:
+	received (in 687985.160 secs):
+		33624104586 packets	1394682569084 bytes
+		48005 pkts/sec	2027005 bytes/sec
+	transmitted (in 687985.160 secs):
+		42165620704 packets	2001133404952 bytes
+		61001 pkts/sec	2908000 bytes/sec
+      1 minute input rate 0 pkts/sec,  1 bytes/sec
+      1 minute output rate 0 pkts/sec,  1 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  1 bytes/sec
+      5 minute output rate 0 pkts/sec,  1 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+
+------------------ show perfmon ------------------
+
+
+Context: inside-6-7-9-10
+PERFMON STATS:                     Current      Average
+Xlates                                0/s          5/s
+Connections                           0/s          5/s
+TCP Conns                             0/s          5/s
+UDP Conns                             0/s          0/s
+URL Access                            0/s          0/s
+URL Server Req                        0/s          0/s
+TCP Fixup                             0/s          0/s
+TCP Intercept Established Conns       0/s          0/s
+TCP Intercept Attempts                0/s          0/s
+TCP Embryonic Conns Timeout           0/s          0/s
+FTP Fixup                             0/s          0/s
+AAA Authen                            0/s          0/s
+AAA Author                            0/s          0/s
+AAA Account                           0/s          0/s
+HTTP Fixup                            0/s          0/s
+
+VALID CONNS RATE in TCP INTERCEPT:    Current      Average
+                                       N/A         N/A
+
+------------------ show counters ------------------
+
+Protocol     Counter                                       Value   Context
+IP           IN_PKTS                                    99737918   Summary
+IP           OUT_PKTS                                   43957378   Summary
+IP           OUT_DROP_DWN                                     82   Summary
+IP           TO_ARP                                     38722055   Summary
+IP           TO_UDP                                     30499497   Summary
+IP           TO_ICMP                                      653527   Summary
+UDP          IN_PKTS                                    30499497   Summary
+UDP          OUT_PKTS                                   30539491   Summary
+ICMP         IN_PKTS                                      653527   Summary
+ICMP         PORT_UNREACH                                 653519   Summary
+SSLERR       BAD_SIGNATURE                                     6   Summary
+SSLALERT     RX_CLOSE_NOTIFY                                  15   Summary
+SSLALERT     RX_WARNING_ALERT                                 15   Summary
+SSLDEV       NEW_CTX                                           6   Summary
+SSL_NP       OPEN_CONN                                         4   Summary
+SSL_NP       HANDSHAKE_START                               54564   Summary
+SSL_NP       HANDSHAKE_DONE                                54564   Summary
+SSL_NP       DOWNSTREAM_CLOSE                              54563   Summary
+SSL_NP       DOWNSTREAM_CLOSE_NEXT                         54563   Summary
+SSL_NP       UPSTREAM_CLOSE                                54563   Summary
+SSL_NP       UPSTREAM_CLOSE_NEXT                           54563   Summary
+SSL_NP       FREE_CONN                                     54563   Summary
+SSL_NP       NEW_CONN_SERVER                               54562   Summary
+SSL_NP       NEW_CONN_CLIENT                                   2   Summary
+SSL_NP       IN_PKTS_RX                                   220792   Summary
+SSL_NP       IN_PKTS_TX                                    54570   Summary
+SSL_NP       OUT_PKTS_RX                                  951853   Summary
+SSL_NP       OUT_PKTS_TX                                 1008929   Summary
+SSL_NP       SESSIONS_CLEARED                               2501   Summary
+SSL_NP       VCID_CHECK_FAIL                                   7   Summary
+SSL_NP       SSL_HANDLE_ALLOC                              54566   Summary
+SSL_NP       SSL_HANDLE_FREE                               54563   Summary
+DNS          IN_PKTS                                          14   Summary
+DNS          OUT_PKTS                                         14   Summary
+DNS          RANDOM_REQ                                       14   Summary
+NPSHIM       CTX_ALLOC                                     54586   Summary
+NPSHIM       CTX_FREE                                      54581   Summary
+NPSHIM       WRITE_UNBLOCKED                              132258   Summary
+NPSHIM       READ_RECV                                      5388   Summary
+VPIF         BAD_VALUE                                   1905309   Summary
+VPIF         NOT_FOUND                                  25183362   Summary
+VPIF         VCID_MISMATCH                               1365535   Summary
+SYSLOG       DROP_SYSLOG                                   51092   Summary
+
+------------------ show asp drop ------------------
+
+
+Frame drop:
+  No route to host (no-route)                                              19164
+  Flow is denied by configured rule (acl-drop)                               831
+  First TCP packet not SYN (tcp-not-syn)                                     706
+  FP L2 rule drop (l2_acl)                                                 15013
+  Interface is down (interface-down)                                          26
+
+Last clearing: Never
+
+Flow drop:
+
+Last clearing: Never
+
+------------------ show asp event dp-cp ------------------
+
+DP-CP EVENT QUEUE                  QUEUE-LEN  HIGH-WATER
+Punt Event Queue                           0          32
+Routing Event Queue                        0           0
+Identity-Traffic Event Queue               0         340
+PTP-Traffic Event Queue                    0           0
+General Event Queue                        0        8192
+Syslog Event Queue                         0        8192
+Non-Blocking Event Queue                   0           8
+Midpath High Event Queue                   0           2
+Midpath Norm Event Queue                   0          18
+Crypto Event Queue                         0           0
+HA Event Queue                             0          28
+Threat-Detection Event Queue               0           0
+SCP Event Queue                            0           0
+ARP Event Queue                            0        1014
+IDFW Event Queue                           0           0
+CXSC Event Queue                           0           0
+BFD Event Queue                            0           0
+SFR Event Queue                            0           0
+Cluster Event Queue                        0           0
+
+EVENT-TYPE          ALLOC ALLOC-FAIL ENQUEUED ENQ-FAIL  RETIRED 15SEC-RATE
+punt              1010829          0  1010829        0  1010829          0
+  inspect-ftp      480856          0   480856        0   480856          0
+  inspect-skinn     72945          0    72945        0    72945          0
+  inspect-smtp     457028          0   457028        0   457028          0
+drop-flow               0          0   279136        0   279136          0
+midpath-high        73281          0    73281        0    73281          0
+midpath-norm       558887          0   558887        0   558887          0
+adj-absent           5545          0     5545        0     5545          0
+arp-in           38722055          0 38722055        0 38722055          0
+identity-traffic 59255722          0 59255722        0 59255722         70
+syslog           21155164605          0 20494497626 660666979 21155164605         21
+snmp             593832790          0 582632331 11200459 593832790          0
+scheduler              16          0       16        0       16          0
+ha-msg            1782976          0  1782976        0  1782976          0
+
+------------------ show service-policy ------------------
+
+
+Global policy: 
+  Service-policy: global_policy
+    Class-map: inspection_default
+      Inspect: dns preset_dns_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        message-length maximum client auto, drop 0
+        message-length maximum 512, drop 0
+        dns-guard, count 0
+        protocol-enforcement, drop 0
+        nat-rewrite, count 0
+      Inspect: ftp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: h323 h225 _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+        h245-tunnel-block drops 0 connection
+      Inspect: h323 ras _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        h245-tunnel-block drops 0 connection
+      Inspect: ip-options _default_ip_options_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+RTRALT         allow 0, clear 0
+      Inspect: netbios, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: rsh, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: rtsp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: skinny , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: esmtp _default_esmtp_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        mask-banner, count 0
+        allow-tls, count 0
+        match cmd line length gt 512 
+          drop-connection log, packet 0
+        match cmd RCPT count gt 100 
+          drop-connection log, packet 0
+        match body line length gt 998 
+          log, packet 0
+        match header line length gt 998 
+          drop-connection log, packet 0
+        match sender-address length gt 320 
+          drop-connection log, packet 0
+        match MIME filename length gt 255 
+          drop-connection log, packet 0
+        match ehlo-reply-parameter others 
+          mask, packet 0
+      Inspect: sqlnet, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: sunrpc, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: tftp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: sip , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: xdmcp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+

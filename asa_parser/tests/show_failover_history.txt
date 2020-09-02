@@ -1,0 +1,67 @@
+------------------ show failover history ------------------
+
+==========================================================================
+Group     From State                 To State                   Reason
+==========================================================================
+16:43:08 UTC Aug 8 2017
+    0     Active Applying Config     Active Config Applied      No Active unit found
+
+16:43:08 UTC Aug 8 2017
+    0     Active Config Applied      Active                     No Active unit found
+
+16:43:09 UTC Aug 8 2017
+    1     Negotiation                Just Active                No Active unit found
+
+16:43:09 UTC Aug 8 2017
+    2     Disabled                   Negotiation                Failover state check
+
+16:43:10 UTC Aug 8 2017
+    1     Just Active                Active Drain               No Active unit found
+
+16:43:10 UTC Aug 8 2017
+    1     Active Drain               Active Applying Config     No Active unit found
+
+16:43:10 UTC Aug 8 2017
+    1     Active Applying Config     Active Config Applied      No Active unit found
+
+16:43:10 UTC Aug 8 2017
+    1     Active Config Applied      Active                     No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Negotiation                Just Active                No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Just Active                Active Drain               No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Active Drain               Active Applying Config     No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Active Applying Config     Active Config Applied      No Active unit found
+
+16:43:11 UTC Aug 8 2017
+    2     Active Config Applied      Active                     No Active unit found
+
+17:37:12 UTC Aug 8 2017
+    2     Active                     Standby Ready              Other unit wants me Standby
+
+14:01:14 UTC Aug 16 2017
+    2     Standby Ready              Just Active                HELLO not heard from mate
+
+14:01:15 UTC Aug 16 2017
+    2     Just Active                Active Drain               HELLO not heard from mate
+
+14:01:15 UTC Aug 16 2017
+    2     Active Drain               Active Applying Config     HELLO not heard from mate
+
+14:01:15 UTC Aug 16 2017
+    2     Active Applying Config     Active Config Applied      HELLO not heard from mate
+
+14:01:15 UTC Aug 16 2017
+    2     Active Config Applied      Active                     HELLO not heard from mate
+
+15:27:30 UTC Aug 16 2017
+    2     Active                     Standby Ready              Other unit wants me Standby
+
+==========================================================================
+
