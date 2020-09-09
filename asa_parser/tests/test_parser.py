@@ -1,14 +1,20 @@
 import unittest
 import asa_parser as ap
+import git
+import os
 
 
 class ParserTest(unittest.TestCase):
+    txt_path = os.path.join(git.Repo('.', search_parent_directories=True).working_tree_dir, 'asa_parser')
+    txt_path = os.path.join(txt_path, 'tests')
+
     def test_show_clock(self):
+
         # This is the expected value
         expected = '{"timestamp": ["12:40:33.800 UTC Wed Aug 16 2017"]}'
 
         # Check to make sure the parser returns the expected value
-        asa = ap.AsaParser('show_clock.txt')
+        asa = ap.AsaParser(os.path.join(self.txt_path, 'show_clock.txt'))
         self.assertEqual(expected, asa.clock())
 
     def test_show_failover_history(self):
@@ -48,5 +54,5 @@ class ParserTest(unittest.TestCase):
                    '"ToState": "Standby Ready", "Reason": "Other unit wants me Standby"}]'
 
         # Check to make sure the parser returns the expected value
-        asa = ap.AsaParser('show_failover_history.txt')
+        asa = ap.AsaParser(os.path.join(self.txt_path, 'show_failover_history.txt'))
         self.assertEqual(expected, asa.failover_history())
