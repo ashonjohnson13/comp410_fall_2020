@@ -10,6 +10,8 @@ Parser Class Library for Cisco ASA Next Generation Firewall
     * conda activate py38
   * Install jupyterlab if you want (optional)
     * conda install jupyterlab
+  * Install git (if you need to)
+    * https://git-scm.com/downloads
   * Fork this project and clone your fork 
     * cd to directory you want to put this in 
     * git clone (Your fork URL - Green clone button)
