@@ -15,7 +15,7 @@ Parser Class Library for Cisco ASA Next Generation Firewall
     * git clone (Your fork URL - Green clone button)
     * cd comp410_fall_2020
   * Install requirements
-    * python -m pip install -r requirements.txt
+    * conda install --file requirements.txt
   * python demo.py 
     * Runs a quick demo
 * Testing
