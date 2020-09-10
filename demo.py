@@ -22,6 +22,7 @@ def run_demo():
     df = pd.read_json(primary_asa.failover_history())
     # top reasons found in the failover history
     print(df['Reason'].value_counts())
+    print('Demo Message')
 
 
 if __name__ == "__main__":
