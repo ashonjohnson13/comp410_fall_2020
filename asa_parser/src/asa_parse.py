@@ -34,3 +34,7 @@ class AsaParser(ShowTech):
                 fh_list.append(fh)
                 group_found = False
         return json.dumps(fh_list)
+
+    def startup_config_errors(self):
+        """Parser for show startup-config errors"""
+        return json.dumps({'text': self.get_show_section('startup-config errors')})

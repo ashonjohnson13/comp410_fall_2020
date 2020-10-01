@@ -56,3 +56,6 @@ class ParserTest(unittest.TestCase):
         # Check to make sure the parser returns the expected value
         asa = ap.AsaParser(os.path.join(self.txt_path, 'show_failover_history.txt'))
         self.assertEqual(expected, asa.failover_history())
+
+    def test_startup_config_errors(self):
+        self.assertEqual(True, True)

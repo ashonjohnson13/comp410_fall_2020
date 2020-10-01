@@ -24,6 +24,9 @@ def run_demo():
     print(df['Reason'].value_counts())
     print('Demo Message')
 
+    # startup-config errors
+    print(primary_asa.startup_config_errors())
+
 
 if __name__ == "__main__":
     run_demo()
