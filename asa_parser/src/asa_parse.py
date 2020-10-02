@@ -37,5 +37,4 @@ class AsaParser(ShowTech):
 
     def startup_config_errors(self):
         """Parser for show startup-config errors"""
-        print(self.get_show_section('memory'))
         return json.dumps({'text': self.get_show_section('startup-config errors')})
