@@ -27,6 +27,8 @@ def run_demo():
     # startup-config errors
     print(primary_asa.startup_config_errors())
 
+    # tech support license
+    print(primary_asa.show_tech_support_license())
 
 if __name__ == "__main__":
     run_demo()

@@ -38,3 +38,7 @@ class AsaParser(ShowTech):
     def startup_config_errors(self):
         """Parser for show startup-config errors"""
         return json.dumps({'text': self.get_show_section('startup-config errors')})
+
+    def show_tech_support_license(self):
+        """Parser for show tech support license"""
+        return json.dumps({'text': self.get_show_section('tech-support license')})
