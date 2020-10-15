@@ -24,6 +24,19 @@ def run_demo():
     print(df['Reason'].value_counts())
     print('Demo Message')
 
+    # startup-config errors
+    print(primary_asa.startup_config_errors())
+
+    print("\n\n\n")
+
+    # tech support license
+    print(primary_asa.show_tech_support_license())
+
+    print("\n\n\n")
+
+    # cpu usage
+    print(primary_asa.show_cpu_usage())
+
 
 if __name__ == "__main__":
     run_demo()

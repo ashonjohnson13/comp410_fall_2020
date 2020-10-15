@@ -14,12 +14,12 @@ class AsaParser(ShowTech):
         """Returns failover history"""
 
         # Initialize variables
-        fh_list = []         # This will hold the failover info
-        timestamp = ''       # Timestamp of the current group information
+        fh_list = []  # This will hold the failover info
+        timestamp = ''  # Timestamp of the current group information
         group_found = False  # Identifies if parser has found a group
 
         # --- show failover history ---
-        for line in  self.get_show_section('failover history'):
+        for line in self.get_show_section('failover history'):
             # Check for a timestamp
             if ' UTC ' in line:
                 timestamp = line
@@ -35,4 +35,14 @@ class AsaParser(ShowTech):
                 group_found = False
         return json.dumps(fh_list)
 
-    # Test add line to commit
+    def startup_config_errors(self):
+        """Parser for show startup-config errors"""
+        return json.dumps({'text': self.get_show_section('startup-config errors')})
+
+    def show_tech_support_license(self):
+        """Parser for show tech support license"""
+        return json.dumps({'text': self.get_show_section('tech-support license')})
+
+    def show_cpu_usage(self):
+        """Parser for show cpu usage"""
+        return json.dumps({'text': self.get_show_section('cpu usage')})
