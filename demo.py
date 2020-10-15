@@ -33,5 +33,8 @@ def run_demo():
     # cpu detailed
     print(primary_asa.show_cpu_detailed())
 
+    # cpu usage
+    print(primary_asa.show_cpu_usage())
+
 if __name__ == "__main__":
     run_demo()
