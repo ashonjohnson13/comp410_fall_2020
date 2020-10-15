@@ -63,3 +63,5 @@ class ParserTest(unittest.TestCase):
     def test_tech_support_license(self):
         self.assertEqual(True, True)
 
+    def test_cpu_usage(self):
+        self.assertEqual(True, True)
