@@ -30,5 +30,8 @@ def run_demo():
     # tech support license
     print(primary_asa.show_tech_support_license())
 
+    # cpu detailed
+    print(primary_asa.show_cpu_detailed())
+
 if __name__ == "__main__":
     run_demo()

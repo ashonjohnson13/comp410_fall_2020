@@ -42,3 +42,7 @@ class AsaParser(ShowTech):
     def show_tech_support_license(self):
         """Parser for show tech support license"""
         return json.dumps({'text': self.get_show_section('tech-support license')})
+
+    def show_cpu_detailed(self):
+        """Parser for show cpu detailed"""
+        return json.dumps({'text': self.get_show_section('cpu detailed')})
