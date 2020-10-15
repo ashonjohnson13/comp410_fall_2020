@@ -36,5 +36,9 @@ def run_demo():
     # cpu usage
     print(primary_asa.show_cpu_usage())
 
+    # memory region
+    print(primary_asa.show_memory_region())
+
+
 if __name__ == "__main__":
     run_demo()
