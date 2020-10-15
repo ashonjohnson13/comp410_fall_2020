@@ -27,17 +27,14 @@ def run_demo():
     # startup-config errors
     print(primary_asa.startup_config_errors())
 
-    print("\n\n\n")
-
     # tech support license
     print(primary_asa.show_tech_support_license())
 
-    print("\n\n\n")
+    # cpu detailed
+    print(primary_asa.show_cpu_detailed())
 
     # cpu usage
     print(primary_asa.show_cpu_usage())
-
-    print("\n\n\n")
 
     # memory region
     print(primary_asa.show_memory_region())

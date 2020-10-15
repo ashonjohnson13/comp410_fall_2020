@@ -68,3 +68,6 @@ class ParserTest(unittest.TestCase):
 
     def test_memory_region(self):
         self.assertEqual(True, True)
+
+    def test_cpu_detailed(self):
+        self.assertEqual(True,True)
