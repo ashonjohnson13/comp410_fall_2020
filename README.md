@@ -25,3 +25,4 @@ Parser Class Library for Cisco ASA Next Generation Firewall
   * pytest --cov=asa_parser
 ## Pull Request Requirements
 * All pull requests much attach output from pytest showing all test cases passed along with the coverage report or pull request will be rejected.
+* (Part of my test submission)
