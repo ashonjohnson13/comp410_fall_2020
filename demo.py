@@ -1,9 +1,9 @@
 # COMP410 Fall initial demo example
+import json
 import asa_parser as ap
 import git
 import os
 import pandas as pd
-
 
 def run_demo():
     # Find path to the data directory in this repo
@@ -38,6 +38,8 @@ def run_demo():
 
     # memory region
     print(primary_asa.show_memory_region())
+
+    print(primary_asa.show_service_policy())
 
 
 if __name__ == "__main__":
